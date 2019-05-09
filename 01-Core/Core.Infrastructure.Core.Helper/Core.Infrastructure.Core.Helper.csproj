@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\03-Application\Core.Infrastructure.Application.Contract\Core.Infrastructure.Application.Contract.csproj" />
+    <ProjectReference Include="..\Core.Infrastructure.Core.Resources\Core.Infrastructure.Core.Resources.csproj" />
+  </ItemGroup>
+
+</Project>

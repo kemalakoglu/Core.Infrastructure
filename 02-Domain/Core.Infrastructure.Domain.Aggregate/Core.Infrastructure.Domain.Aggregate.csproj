@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Contract\Core.Infrastructure.Core.Contract.csproj" />
+    <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Helper\Core.Infrastructure.Core.Helper.csproj" />
+    <ProjectReference Include="..\..\03-Application\Core.Infrastructure.Application.Contract\Core.Infrastructure.Application.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

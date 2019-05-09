@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Infrastructure.Core.Helper\Core.Infrastructure.Core.Helper.csproj" />
+    <ProjectReference Include="..\Core.Infrastructure.Core.Resources\Core.Infrastructure.Core.Resources.csproj" />
+  </ItemGroup>
+
+</Project>

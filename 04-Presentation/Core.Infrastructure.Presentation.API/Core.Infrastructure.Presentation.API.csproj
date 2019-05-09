@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="swagger\**" />
+    <Content Remove="swagger\**" />
+    <EmbeddedResource Remove="swagger\**" />
+    <None Remove="swagger\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.1.3" />
+    <PackageReference Include="IdentityServer4" Version="2.3.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Serilog" Version="2.8.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="serilog.sinks.elasticsearch" Version="7.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="4.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Contract\Core.Infrastructure.Core.Contract.csproj" />
+    <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Enumeration\Core.Infrastructure.Core.Enumeration.csproj" />
+    <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Helper\Core.Infrastructure.Core.Helper.csproj" />
+    <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Resources\Core.Infrastructure.Core.Resources.csproj" />
+    <ProjectReference Include="..\..\02-Domain\Core.Infrastructure.Domain.Aggregate\Core.Infrastructure.Domain.Aggregate.csproj" />
+    <ProjectReference Include="..\..\02-Domain\Core.Infrastructure.Domain.Context\Core.Infrastructure.Domain.Context.csproj" />
+    <ProjectReference Include="..\..\02-Domain\Core.Infrastructure.Domain.Repository\Core.Infrastructure.Domain.Repository.csproj" />
+    <ProjectReference Include="..\..\03-Application\Core.Infrastructure.Application.Contract\Core.Infrastructure.Application.Contract.csproj" />
+    <ProjectReference Include="..\..\03-Application\Core.Infrastructure.Application.Service\Core.Infrastructure.Application.Service.csproj" />
+    <ProjectReference Include="..\..\03-Application\Core.Infrastructure.Application.UnitOfWork\Core.Infrastructure.Application.UnitOfWork.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

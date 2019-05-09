@@ -1,0 +1,953 @@
+{
+  "Timestamp": "2019-03-01T11:21:08.4680095+03:00",
+  "Level": "Information",
+  "MessageTemplate": "WebApi Starting...",
+  "Properties": { "Application": "Core.Infrastructure.Presentation.API" }
+}{"Timestamp":"2019-03-01T11:21:42.7848657+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:23:34.2632764+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:23:47.4816537+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:24:15.0410186+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:25:12.9872619+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:25:38.5866696+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:31:12.8900585+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:32:24.7836562+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:36:26.1029351+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:37:54.4491491+03:00","Level":"Error","MessageTemplate":"Unexpected character encountered while parsing value: k. Path 'request.agreementTypeCode', line 1, position 65.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:41:00.7861401+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:43:44.2932760+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:45:57.5299173+03:00","Level":"Error","MessageTemplate":"Unable to track an entity of type 'AgreementType' because primary key property 'AgreementTypeCode' is null.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:46:29.0431139+03:00","Level":"Error","MessageTemplate":"Unable to track an entity of type 'AgreementType' because primary key property 'AgreementTypeCode' is null.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:48:25.3948245+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:52:07.6036674+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:54:40.4775619+03:00","Level":"Error","MessageTemplate":"Unable to track an entity of type 'AgreementType' because primary key property 'AgreementTypeCode' is null.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:57:46.8718077+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T11:59:58.4446950+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T12:58:19.8396648+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T13:01:31.6203745+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T13:31:10.0558844+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T13:42:28.4270729+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T13:42:54.3623886+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T15:19:38.2253686+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T15:22:12.7009008+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T15:25:32.4846360+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T15:29:26.4353328+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T15:30:23.7912607+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T15:31:04.8739302+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T16:32:51.7889341+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T16:33:10.6344316+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-01T16:34:11.9058927+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T10:29:10.5199682+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T10:50:19.8413482+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T10:52:08.6050222+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T10:58:58.2212167+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T11:19:02.9570074+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T11:19:59.3973288+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T13:00:05.8022013+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T13:17:01.8169008+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T13:21:01.7758751+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T13:22:23.6652322+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T14:42:10.2491374+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T14:47:27.6202070+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T14:48:41.7681100+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T15:53:59.0471542+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-04T16:30:33.9303008+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T12:18:09.7579195+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T14:44:43.8380331+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T14:47:18.0936022+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T14:51:08.6921238+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T14:54:17.2915281+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T14:54:59.8661753+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T14:55:34.0541025+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T14:59:40.8105919+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:10:37.0401227+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:11:07.5088369+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Contract.Service.IGalleyService' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.GalleyController'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:12:55.9829013+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Contract.Service.IGalleyService' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.GalleyController'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:13:25.5606586+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:16:31.0337829+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Contract.Service.IGalleyService' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.GalleyController'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:17:13.1818038+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:17:17.7581621+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Contract.Service.IGalleyService' while attempting to activate 'Core.Infrastructure.Controllers.GalleyController'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:18:07.4305348+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Contract.Service.IGalleyService' while attempting to activate 'Core.Infrastructure.Controllers.GalleyController'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:19:10.1686366+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Contract.Service.IGalleyService' while attempting to activate 'Core.Infrastructure.Controllers.GalleyController'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:22:46.5583600+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:22:46.9116649+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Contract.Service.IGalleyService' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.GalleyController'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:24:09.8809945+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:24:15.7140256+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Contract.Service.IGalleyService' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.GalleyController'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:34:00.6863208+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:41:10.2141328+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T15:41:28.6149463+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-05T16:13:51.3666648+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T14:58:58.0110635+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T14:58:58.9621743+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:04:19.4734605+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:04:40.5012400+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:05:24.4670159+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:06:07.3480492+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:06:41.0550009+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:07:20.4553981+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:07:21.3651933+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:08:24.3785604+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:15:42.9368998+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:15:43.7725734+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:16:43.9653475+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:17:18.8002660+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:17:34.0932091+03:00","Level":"Error","MessageTemplate":"Additional text encountered after finished reading JSON content: ,. Path '', line 2, position 93.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:17:41.0268626+03:00","Level":"Error","MessageTemplate":"Additional text encountered after finished reading JSON content: ,. Path '', line 2, position 93.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:17:49.9149070+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:18:00.7441892+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:18:14.7561503+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:18:24.5321684+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:18:30.2998350+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:20:21.8305182+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:21:41.4108064+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:21:58.3946458+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:26:39.3303796+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:26:40.2213693+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:28:45.9383962+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:28:46.4559923+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:28:46.5510063+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:28:57.4331883+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:29:03.8106275+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:29:53.1818269+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:29:54.1013765+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:29:57.7065943+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:30:24.8528843+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:30:25.7413676+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:30:35.7735273+03:00","Level":"Error","MessageTemplate":"Error converting value \"headers\" to type 'Core.Infrastructure.Presentation.API.Objects.RequestBase'. Path '', line 2, position 9.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:30:42.1250493+03:00","Level":"Error","MessageTemplate":"Error converting value \"headers\" to type 'Core.Infrastructure.Presentation.API.Objects.RequestBase'. Path '', line 2, position 9.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:30:58.1385786+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:31:15.1958095+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:31:22.6616585+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:31:32.9383442+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:31:40.0845493+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:31:58.5870309+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:32:44.4102078+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:32:45.2036086+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:32:50.0490703+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:32:54.6311181+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:33:39.5477185+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:33:40.2470763+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:33:54.2488994+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:36:55.7220405+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:38:47.2019015+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:38:48.1707128+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:38:52.5516401+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:39:00.8466341+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T15:39:11.2178978+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:14:14.0729151+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:14:14.7452175+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:14:20.2494722+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:14:53.5203279+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:14:54.3953637+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:15:12.4582581+03:00","Level":"Error","MessageTemplate":"Error converting value \"null\" to type 'Microsoft.AspNetCore.Http.IHeaderDictionary'. Path 'headers', line 2, position 17.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:16:11.5423806+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:20:47.6848277+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:20:48.7522463+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:20:55.3364236+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: Core.Infrastructure.Presentation.API.Objects.RequestBase","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:25:41.0823241+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:25:41.9342954+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:25:45.8355233+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:26:11.4216127+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoles' for entity type 'IdentityRole' since it is being used for entity type 'AspNetRoles' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:26:49.4661254+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:27:01.2953930+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoles' for entity type 'IdentityRole' since it is being used for entity type 'AspNetRoles' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:27:06.8991131+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke. Request details are: ","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:27:33.4343100+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoles' for entity type 'IdentityRole' since it is being used for entity type 'AspNetRoles' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:33:33.6486619+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:33:34.3765366+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:33:43.5073568+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:33:53.0719996+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoles' for entity type 'IdentityRole' since it is being used for entity type 'AspNetRoles' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:33:59.2967782+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:33:59.3286771+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Datetime is: 7.03.2019 16:33:59 Method properties are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-07T16:34:03.2059119+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoles' for entity type 'IdentityRole' since it is being used for entity type 'AspNetRoles' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:18:54.4486052+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:18:55.2929705+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:18:59.9675141+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:19:00.1428872+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 08:19:00 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:19:14.7544595+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoles' for entity type 'IdentityRole' since it is being used for entity type 'AspNetRoles' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:36:19.6762481+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:36:20.5559998+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:36:28.8302329+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:36:28.9867892+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 08:36:28 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:36:40.3705116+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoles' for entity type 'IdentityRole' since it is being used for entity type 'AspNetRoles' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:44:31.6697298+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:44:32.5347295+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:44:45.1115142+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:44:45.2686192+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 08:44:45 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:50:53.4787776+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:50:54.4998919+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:50:57.3091995+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T08:50:57.4681379+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 08:50:57 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:38:31.3959215+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:38:32.2377893+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:38:39.6718292+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:38:39.8328343+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 09:38:39 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:39:11.2720179+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:39:12.3131347+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:39:16.0782849+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:39:16.2566067+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 09:39:16 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:40:24.2627840+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:40:24.9708810+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:40:29.6423039+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:40:29.8109295+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 09:40:29 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:41:01.4674821+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:41:02.4582970+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:41:05.9997318+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:41:06.1737689+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 09:41:06 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:41:25.4026410+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoles' for entity type 'IdentityRole' since it is being used for entity type 'AspNetRoles' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:42:01.1711512+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:42:02.1183235+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:42:06.3090324+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:42:06.4667418+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 09:42:06 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:42:21.9997885+03:00","Level":"Error","MessageTemplate":"A key cannot be configured on 'AspNetUserRoles' because it is a derived type. The key must be configured on the root type 'IdentityUserRole<string>'. If you did not intend for 'IdentityUserRole<string>' to be included in the model, ensure that it is not included in a DbSet property on your context, referenced in a configuration call to ModelBuilder, or referenced from a navigation property on a type that is included in the model.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:43:58.7685713+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:43:59.7186034+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:44:03.1606031+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:44:03.3162115+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 09:44:03 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T09:44:15.6062558+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoles' for entity type 'IdentityRole' since it is being used for entity type 'AspNetRoles' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:07:06.6592064+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:07:08.6324636+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:07:14.8675033+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:07:15.0366981+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 10:07:15 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:07:32.2901806+03:00","Level":"Error","MessageTemplate":"A key cannot be configured on 'AspNetUserRoles' because it is a derived type. The key must be configured on the root type 'IdentityUserRole<string>'. If you did not intend for 'IdentityUserRole<string>' to be included in the model, ensure that it is not included in a DbSet property on your context, referenced in a configuration call to ModelBuilder, or referenced from a navigation property on a type that is included in the model.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:09:45.1753028+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:09:46.0342289+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:09:52.7042959+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:09:52.8660601+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 10:09:52 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L001\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:10:30.2084070+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:10:36.3581462+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:10:36.3904618+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 8.03.2019 10:10:36 Method parameters are:{\"Headers\":null,\"Request\":{\"code\":\"L002\",\"description\":\"test\",\"type\":\"1\",\"aCType\":\"1\",\"layoutCode\":\"1\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:15:44.9907635+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:15:45.7672972+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:16:15.7785153+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:16:20.6947699+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:16:50.4698217+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:16:51.2399941+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:17:06.0972458+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:33:59.3712074+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:34:15.6945056+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:34:15.8289731+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Contract.Service.IUserStoreService' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:36:10.2359924+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:36:11.0320228+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:36:24.7356327+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:37:06.4850147+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:37:14.3876043+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:38:53.7649862+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:39:10.6324994+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:39:14.1468470+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:40:46.4643749+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:40:48.5484530+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:41:01.0314141+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:41:14.8607150+03:00","Level":"Error","MessageTemplate":"Invalid column name 'NormalizedUserName'.\r\nInvalid column name 'ConcurrencyStamp'.\r\nInvalid column name 'LockoutEnd'.\r\nInvalid column name 'NormalizedEmail'.\r\nInvalid column name 'NormalizedUserName'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:51:03.2402542+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:51:03.9480986+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:51:12.1681849+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:51:37.9293215+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:52:02.9819440+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:52:18.2341274+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T10:52:28.4235778+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-08T12:42:55.3482018+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T12:51:51.8710467+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T12:51:53.1051564+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T12:52:18.7078103+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T12:54:09.6706139+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:14:49.4175315+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:14:50.3496590+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:15:01.5986802+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:15:14.3525322+03:00","Level":"Error","MessageTemplate":"UNKNOWN_ERROR","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:15:23.0500677+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:15:24.4705963+03:00","Level":"Error","MessageTemplate":"Invalid column name 'NormalizedUserName'.\r\nInvalid column name 'ConcurrencyStamp'.\r\nInvalid column name 'LockoutEnd'.\r\nInvalid column name 'NormalizedEmail'.\r\nInvalid column name 'NormalizedUserName'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:15:41.9252499+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:18:20.8475993+03:00","Level":"Error","MessageTemplate":"Invalid column name 'NormalizedUserName'.\r\nInvalid column name 'ConcurrencyStamp'.\r\nInvalid column name 'LockoutEnd'.\r\nInvalid column name 'NormalizedEmail'.\r\nInvalid column name 'NormalizedUserName'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:18:28.9208969+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:18:46.2547829+03:00","Level":"Error","MessageTemplate":"Invalid column name 'NormalizedUserName'.\r\nInvalid column name 'ConcurrencyStamp'.\r\nInvalid column name 'LockoutEnd'.\r\nInvalid column name 'NormalizedEmail'.\r\nInvalid column name 'NormalizedUserName'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:18:48.5228359+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:20:06.0589665+03:00","Level":"Error","MessageTemplate":"Invalid column name 'NormalizedUserName'.\r\nInvalid column name 'ConcurrencyStamp'.\r\nInvalid column name 'LockoutEnd'.\r\nInvalid column name 'NormalizedEmail'.\r\nInvalid column name 'NormalizedUserName'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:23:23.3091896+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:23:24.2072944+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:23:35.5354242+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:23:52.3312328+03:00","Level":"Error","MessageTemplate":"UNKNOWN_ERROR","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:23:54.9302275+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:24:09.7556556+03:00","Level":"Error","MessageTemplate":"UNKNOWN_ERROR","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:24:43.2922606+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:24:44.0064868+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:24:46.4769788+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:25:04.1634110+03:00","Level":"Error","MessageTemplate":"UNKNOWN_ERROR","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:25:47.1271300+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:25:48.0052296+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:25:50.5518872+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:25:55.1692034+03:00","Level":"Error","MessageTemplate":"Invalid column name 'NormalizedUserName'.\r\nInvalid column name 'ConcurrencyStamp'.\r\nInvalid column name 'LockoutEnd'.\r\nInvalid column name 'NormalizedEmail'.\r\nInvalid column name 'NormalizedUserName'.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:31:45.3662646+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:31:46.2940139+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:31:50.4255342+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T13:51:47.3018892+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T14:04:52.9091869+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T14:04:53.8564387+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T14:05:03.4659298+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T14:05:05.2322122+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T14:06:17.1489635+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T14:06:20.9591068+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T14:25:16.7850735+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T14:25:17.2913198+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:03:21.8953073+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:03:22.7759897+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:03:34.9403500+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:03:35.2015413+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:04:40.6770145+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:04:41.5138680+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:05:19.7480907+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:06:37.2835355+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:10:57.0145737+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:10:57.7174034+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:11:09.9265344+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:11:28.1654598+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:41:36.0898441+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:41:36.7832023+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:41:43.9094853+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:44:06.7474627+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:44:07.4412484+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:44:11.9244014+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:44:53.6651906+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:44:54.4149256+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:45:01.0031644+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:45:59.1486110+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:46:06.2355360+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:53:16.7958897+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:56:00.8257383+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:56:01.7716884+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:59:03.3002333+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T15:59:18.7580803+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:00:23.8589083+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:00:24.6598503+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:01:06.3428779+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:01:43.5532239+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:02:27.4955518+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:03:29.5133716+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:05:57.6945114+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:05:58.2144395+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:06:15.8357490+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:06:16.4092549+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:06:43.4870692+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:06:46.0031998+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:06:46.5348983+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:07:32.2310598+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:07:33.0315329+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:08:22.9722123+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:08:23.8674908+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:08:26.7486953+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:09:29.8641304+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:09:30.6715049+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:09:30.8255981+03:00","Level":"Error","MessageTemplate":"The AuthorizationPolicy named: 'Bearer' was not found.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:09:31.0009192+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:09:31.0414861+03:00","Level":"Error","MessageTemplate":"The AuthorizationPolicy named: 'Bearer' was not found.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:09:33.2663434+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:09:33.2914781+03:00","Level":"Error","MessageTemplate":"The AuthorizationPolicy named: 'Bearer' was not found.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:09:51.7075732+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:09:51.7348982+03:00","Level":"Error","MessageTemplate":"The AuthorizationPolicy named: 'Bearer' was not found.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:10:07.7613062+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:12:21.6520534+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:12:25.4579642+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:12:25.6292125+03:00","Level":"Error","MessageTemplate":"The AuthorizationPolicy named: 'Bearer' was not found.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:12:28.8086034+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:12:28.8363301+03:00","Level":"Error","MessageTemplate":"The AuthorizationPolicy named: 'Bearer' was not found.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:12:41.7155448+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:12:54.3951782+03:00","Level":"Error","MessageTemplate":"The AuthorizationPolicy named: 'Bearer' was not found.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:13:14.2430892+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:13:17.5501717+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:13:23.2848801+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:16:42.6460693+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:16:43.3661631+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:16:50.7349038+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:30:23.3619169+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:30:23.7231930+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:30:23.8214541+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:30:54.9618669+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:31:18.8791026+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:31:26.0898091+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:31:41.0403391+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:31:41.3679272+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:31:49.1021197+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:31:56.4387731+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:33:14.2359449+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:34:14.0529830+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:35:17.9539402+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:35:23.3521614+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:35:24.8312716+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:36:08.7671232+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:36:10.6357008+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:38:49.6267575+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:38:50.1122199+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:38:50.2026972+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:39:04.7969893+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:39:05.6359142+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:39:11.4956564+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:39:49.5951868+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:39:49.6002718+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:40:13.7428983+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:40:14.5895311+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:40:42.1179608+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:41:00.2902174+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:42:18.2369911+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:42:26.9207456+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:42:46.9502116+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:42:52.3040387+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:43:32.3856135+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:43:55.3065531+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:44:18.2228002+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:44:19.0158079+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:44:25.2206414+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:45:47.8822071+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:46:05.2672976+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:46:12.5366805+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:46:34.7553635+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:46:35.5227988+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:47:48.0143408+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:47:48.7189782+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:47:55.4973925+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:47:57.8040310+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:47:58.6912368+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:48:08.5020113+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:48:20.5612843+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:48:21.4472082+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:49:22.4665517+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:57:45.0100906+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:57:45.8510688+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:57:52.9522544+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:58:34.1845880+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T16:59:34.0787159+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:09:24.2390616+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:09:25.0559642+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:09:31.6975654+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:10:48.2325387+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:11:09.3210952+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:14:47.9363648+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:14:48.7309120+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:14:54.3029853+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:19:09.9696419+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:19:10.8586333+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:19:15.1283033+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:20:59.6720157+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:21:00.3968428+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:21:05.6261993+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:24:36.5814096+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:24:37.2901390+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:24:45.1902057+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:32:32.0064044+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:37:16.1184483+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:37:16.7955193+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:37:40.2966311+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:37:51.8700553+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:38:04.2408369+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:40:40.9067519+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:41:23.2715323+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:41:23.9450244+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:41:29.6195373+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:44:08.2603828+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:44:08.9314810+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:44:09.9511017+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:45:53.4920106+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:45:54.1920111+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:46:02.1423133+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:46:48.1188045+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:46:48.9113212+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:46:55.1811964+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:47:51.3364620+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:47:52.1387592+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:47:55.8191531+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:48:14.7170942+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:48:15.4453163+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:48:16.4819316+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:50:09.6524194+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:50:10.4934979+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:50:15.1698566+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-09T17:50:36.9833099+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:19:18.8176182+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:19:19.5531294+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:19:43.5678815+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:20:09.9219630+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:20:31.0261413+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:24:33.6611467+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:24:34.5884837+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:24:39.9097179+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:32:27.9195232+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:32:28.7816446+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:32:34.0168614+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T09:33:40.5909587+03:00","Level":"Error","MessageTemplate":"The method or operation is not implemented.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:21:15.7394716+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:21:16.6116193+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:21:20.5020070+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:22:59.7034789+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:23:03.8628672+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:23:43.9975526+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:44:38.6989345+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:44:39.5949545+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:44:46.6896017+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:56:50.5145659+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:56:51.3531797+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:56:56.1063112+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:57:39.4912247+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:57:40.3719727+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:57:45.4212767+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:57:49.6721053+03:00","Level":"Information","MessageTemplate":"Jwt token is succeed.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:58:00.0992622+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T10:58:35.5245455+03:00","Level":"Information","MessageTemplate":"Jwt token is succeed.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:31:04.0699867+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:31:04.9579936+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:31:10.8732409+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:31:59.1420110+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:32:00.0458361+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:32:04.7102805+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:33:37.2032682+03:00","Level":"Information","MessageTemplate":"Jwt token is succeed.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:33:37.2400684+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:33:39.6416267+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:34:16.1407417+03:00","Level":"Information","MessageTemplate":"Jwt token is succeed.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:34:16.1636169+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:34:32.1699572+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:34:48.6427605+03:00","Level":"Information","MessageTemplate":"Jwt token is succeed.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:34:48.6786127+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:35:02.3751273+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:35:03.0334845+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:35:17.4675553+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:35:38.0658874+03:00","Level":"Information","MessageTemplate":"Jwt token is succeed.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:37:24.1579989+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:37:25.0335574+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:37:40.9559084+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:38:41.8439291+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:39:36.4512828+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:39:37.2843070+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:39:40.6793049+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:39:51.4346252+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:47:17.2773589+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:47:17.9765649+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:47:21.5122501+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:47:50.0291984+03:00","Level":"Error","MessageTemplate":"A second operation started on this context before a previous operation completed. Any instance members are not guaranteed to be thread safe.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:48:15.8941086+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:48:16.6720685+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T11:48:19.5048375+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:07:23.1419736+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:07:24.5351505+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:07:26.6656448+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:07:36.9789495+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoleClaims' for entity type 'IdentityRoleClaim<string>' since it is being used for entity type 'AspNetRoleClaims' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:07:57.6352748+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:07:58.6125802+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:08:05.8388949+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:08:23.3613799+03:00","Level":"Error","MessageTemplate":"Cannot use table 'AspNetRoleClaims' for entity type 'IdentityRoleClaim<string>' since it is being used for entity type 'AspNetRoleClaims' and there is no relationship between their primary keys.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:12:19.5185628+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:12:20.5535490+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:12:24.6485528+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:12:56.6195284+03:00","Level":"Error","MessageTemplate":"A key cannot be configured on 'AspNetUserRoles' because it is a derived type. The key must be configured on the root type 'IdentityUserRole<string>'. If you did not intend for 'IdentityUserRole<string>' to be included in the model, ensure that it is not included in a DbSet property on your context, referenced in a configuration call to ModelBuilder, or referenced from a navigation property on a type that is included in the model.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:13:15.5978386+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:13:17.0397408+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:13:18.0577615+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:13:47.8512337+03:00","Level":"Error","MessageTemplate":"A key cannot be configured on 'AspNetUserTokens' because it is a derived type. The key must be configured on the root type 'IdentityUserLogin<string>'. If you did not intend for 'IdentityUserLogin<string>' to be included in the model, ensure that it is not included in a DbSet property on your context, referenced in a configuration call to ModelBuilder, or referenced from a navigation property on a type that is included in the model.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:14:17.9346562+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:14:19.1351244+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:14:20.7285129+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:15:03.1980218+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:15:03.6966837+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:16:33.2972375+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:16:33.8152596+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:16:41.7644964+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:16:42.7131231+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:17:12.9430086+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:17:36.9019661+03:00","Level":"Error","MessageTemplate":"The entity type 'Galley' requires a primary key to be defined.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:18:28.1346872+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:18:29.1410229+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:18:33.1216058+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T12:18:55.8695259+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:14:26.9068381+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:14:27.8432764+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:14:36.3192016+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:37:29.3640345+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:37:30.2956723+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:37:32.2006582+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:37:38.8944778+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:37:46.1650562+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:37:53.9457957+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:42:48.5243038+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:42:49.4093341+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:42:56.7085593+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:46:42.2662609+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:46:43.0873614+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:46:54.7195596+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:48:55.9388833+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:48:56.6970341+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:10.3983393+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:19.4273682+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:25.2227667+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:25.3209378+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:36.2707371+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:40.7589789+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:40.7764101+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:40.8386209+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:40.8399926+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:40.8426210+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:41.4588438+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:49:41.5005854+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:50:05.8632663+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:50:35.5565541+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:50:36.4015694+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:50:40.5805896+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:50:40.5928392+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:50:40.8761609+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:51:32.8814700+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:51:33.6095058+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:51:37.9004963+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:51:38.0813884+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:52:50.3444554+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:52:51.2222137+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:52:52.8052943+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-10T14:52:53.0096417+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:09:19.4872231+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:09:20.2693119+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:09:26.6679145+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:09:26.9912898+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:09:35.2288831+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:10:07.0994383+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:10:07.1949228+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:10:07.1949742+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:10:07.2284883+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:10:07.8097830+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:10:07.8777679+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:11:16.9604107+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:11:17.8912377+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:11:20.0052765+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:11:20.1846689+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:16:05.4248991+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:16:06.2839192+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:16:11.1506354+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:16:15.3521004+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:16:17.2996089+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:17:43.2278447+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:17:44.0492878+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:17:51.0528884+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:17:53.0041575+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:18:23.8259107+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:18:24.7120497+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:18:27.5914600+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T08:18:29.2481226+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:02:17.1500503+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:02:17.9859983+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:02:19.3886223+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:02:29.1880803+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:02:39.5505178+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:02:44.0476393+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:02:49.0540533+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:03:05.7119831+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:04:35.1779286+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:04:36.0856118+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:04:41.5548179+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:04:43.0049731+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:08:17.7524909+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:08:18.6637745+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:08:21.2204437+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:08:28.5542323+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:08:37.1131261+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:08:45.3415560+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:11:54.1741757+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:11:55.1064766+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:11:59.7893869+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:11:59.9600189+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:13:00.0192380+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:13:00.6995230+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:13:04.5647961+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:13:06.0129711+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:13:13.2145793+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:14:23.7322788+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:14:36.9327353+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:14:46.1839517+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:14:53.5936513+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:20:54.9687337+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:20:55.7761780+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:02.0724332+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:02.6983589+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:06.2142438+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:06.2350207+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:06.2354908+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:06.2379104+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:06.4477651+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:06.4543776+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:06.4775237+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:06.4870448+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:08.5790521+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:08.5947871+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:08.5973742+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:08.5974482+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:08.6755346+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:08.6822253+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:08.6922299+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:08.6989520+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:12.5160529+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:12.8510077+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:12.8645270+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:12.8658733+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:12.8732917+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:12.8807984+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:18.7570457+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:18.7635574+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:18.7797963+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:18.7798576+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:18.7811931+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:19.0252431+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:19.0348504+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:30.1755899+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:21:30.2230507+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:14.9627936+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:15.8446248+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:19.4444905+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:19.5347068+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:19.5383132+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:19.5418307+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:19.5603626+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:24.1320960+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:24.3411621+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:31.4766874+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:36.3539018+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:36.3713443+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:36.3731232+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:36.3745075+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:36.5476261+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:23:36.5557169+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:01.2061192+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:02.0928105+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:04.4153539+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:04.4922427+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:04.4923321+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:04.5005043+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:04.7712734+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:04.7810262+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:10.6691329+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:10.7216072+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:21.1716045+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:25.5448756+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:26:26.3156402+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:28:58.4685103+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:28:59.1894048+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:29:07.6134386+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:29:25.5172218+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:29:35.0362804+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:29:35.9193147+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:31:11.5404375+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:31:12.4070599+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:31:16.4070360+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:31:17.8853191+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:31:51.0349706+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:31:51.7130681+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:31:53.1448663+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T09:31:54.4008643+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:30:26.3617468+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:30:27.9776964+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:34:33.1356757+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:34:34.9051786+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:43:24.0870333+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:46:38.8578707+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:47:17.6867553+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:47:54.7093592+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:48:28.9258244+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:48:32.6596782+03:00","Level":"Error","MessageTemplate":"IDX10000: The parameter 'token' cannot be a 'null' or an empty object.\r\nParameter name: token","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:50:23.9858792+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:51:06.0178616+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:51:13.7110114+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:51:40.1099524+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:52:04.5456089+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:52:34.7326061+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:52:53.6752716+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:53:03.3675677+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:57:46.2361837+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:57:47.7372566+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T10:58:06.7725563+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:06:50.7511033+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:06:52.2363581+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:07:01.0856418+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:07:02.3171716+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:07:12.9555233+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:07:31.9717284+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:07:47.0013180+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:07:47.0154313+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:07:47.2074145+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:32:30.3960849+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:32:31.3379687+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:32:33.1247986+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:32:34.1380463+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:33:50.8818368+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:46:51.8023351+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:46:52.7033211+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:46:55.8804972+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:46:56.7137775+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:48:51.1161099+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:49:23.0400974+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T11:50:00.4384049+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T14:55:29.3012596+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T14:55:30.1489458+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T14:55:34.2317139+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T14:55:35.5421972+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:25:07.7533007+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:25:08.6028618+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:25:38.7629821+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:26:55.2653225+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:26:55.3216788+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 11.03.2019 15:26:55 Method parameters are:{\"Headers\":{\"TrackId\":\"12346789\",\"Token\":\"\",\"RequestResponseDate\":\"2019-03-11T15:26:55.3163493+03:00\"},\"Request\":{\"code\":\"L002\",\"Description\":\"Lopa002\",\"Type\":\"1\",\"ACType\":\"1\",\"LayoutCode\":\"L002\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:28:02.9576596+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:47:31.6702882+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:47:32.5019925+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:47:39.4361797+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:47:57.8845274+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T15:47:59.4603563+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T16:06:13.6210201+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T16:06:14.8209627+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T16:06:17.8641335+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T16:06:34.6220375+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T16:07:19.3645112+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T16:07:19.4182430+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 11.03.2019 16:07:19 Method parameters are:{\"Headers\":{\"TrackId\":\"12346789\",\"RequestResponseDate\":\"2019-03-11T16:07:19.4129199+03:00\"},\"Request\":{\"code\":\"L003\",\"Description\":\"Lopa003\",\"Type\":\"1\",\"ACType\":\"1\",\"LayoutCode\":\"L003\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T16:07:39.4464983+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-11T16:07:40.7118136+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:10:00.8399184+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:10:02.1305964+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:10:33.9375635+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:10:34.1367754+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 12.03.2019 11:10:34 Method parameters are:{\"Headers\":{\"TrackId\":\"12346789\",\"RequestResponseDate\":\"2019-03-12T11:10:34.1292669+03:00\"},\"Request\":{\"code\":\"L003\",\"Description\":\"Lopa003\",\"Type\":\"1\",\"ACType\":\"1\",\"LayoutCode\":\"L003\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:10:42.8079251+03:00","Level":"Error","MessageTemplate":"An error occurred while updating the entries. See the inner exception for details.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:11:04.8292438+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:11:04.9018080+03:00","Level":"Information","MessageTemplate":"Service method is: Create. Request time is: 12.03.2019 11:11:04 Method parameters are:{\"Headers\":{\"TrackId\":\"12346789\",\"RequestResponseDate\":\"2019-03-12T11:11:04.9017668+03:00\"},\"Request\":{\"code\":\"L004\",\"Description\":\"Lopa004\",\"Type\":\"1\",\"ACType\":\"1\",\"LayoutCode\":\"L004\"}}","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:12:12.0699022+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:27:57.5968185+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:28:22.1656626+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:28:23.1173665+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:28:24.2483318+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-12T11:28:25.1301093+03:00","Level":"Information","MessageTemplate":"Service method is:Invoke","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-13T08:15:11.2318331+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-13T08:15:12.2173566+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-13T08:15:50.0484154+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-13T08:15:51.3819278+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/GalleyPlanning/swagger.json","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-13T13:26:55.1128445+03:00","Level":"Information","MessageTemplate":"Service path is:/api/lopadetail/create","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-13T13:26:55.1177142+03:00","Level":"Information","MessageTemplate":"Service path is:/api/lopadetail/create","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T13:34:53.5937998+03:00","Level":"Information","MessageTemplate":"Service path is:/api/galley/getbykey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:16:03.9270023+03:00","Level":"Error","MessageTemplate":"Exception of type 'Core.Infrastructure.Presentation.API.Extensions.BusinessException' was thrown.","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.2627282+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.3475522+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.3615212+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.4268283+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.4741069+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.5742133+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.7186111+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.7218953+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.9755605+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:13.9798427+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:14.1124815+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:14.1656100+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:14.3623787+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:14.4790689+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:14.6433438+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:14.6630251+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:14.7596989+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:14.8926505+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:14.9542667+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:15.0893214+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:15.1258748+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:15.3535041+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-14T15:53:15.3709923+03:00","Level":"Information","MessageTemplate":"Service path is:/api/LopaHeader/GetByKey","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-03-15T16:46:39.0946039+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Galley/Create","Properties":{"Application":"Core.Infrastructure.Presentation.API"}}
+{"Timestamp":"2019-04-25T16:21:16.3232918+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-25T16:21:23.3494692+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-25T16:21:26.1180419+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-25T16:21:27.5609203+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:41:24.4350781+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:41:25.8233725+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:41:28.5737731+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:41:29.6393834+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:41:41.7237195+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:41:41.8752919+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:42:00.9429947+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:42:00.9729216+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:42:27.7980924+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:42:27.8277205+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:42:52.7762230+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:42:52.8072974+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:43:23.0681580+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:46:34.6015160+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:46:43.5583523+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:46:47.2246262+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:46:48.0947665+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:47:22.3366454+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Register","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T11:47:22.4577709+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:05:24.8776884+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:05:32.1883658+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:05:35.7931794+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:05:37.3943168+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:05:48.6810187+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:05:48.7975119+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:06:26.2871485+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:06:26.3176110+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:07:07.7893325+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:07:08.9141787+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:07:10.8115538+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:07:12.0052654+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:07:30.2473060+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:07:30.3684883+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:08:22.1304839+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:08:23.3103375+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:08:23.9962328+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:08:25.1801706+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:08:31.0899205+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:08:31.2106623+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'Core.Infrastructure.Presentation.API.Controllers.AccountController'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:09:11.6766513+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:09:12.9142265+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:09:15.3755113+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:09:16.3927187+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:09:30.4028926+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:10:36.8446559+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:16:46.6103162+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:16:48.0575661+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:16:51.6155765+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:16:52.7297942+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:17:07.1383063+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:19:49.7485538+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:19:50.8328754+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:19:54.4038323+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:19:55.4621283+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:19:59.8447389+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:58:17.3390089+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:58:18.8123017+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:58:19.5923549+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:58:20.5017489+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:58:25.4870438+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:59:28.5612861+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T13:59:31.0515786+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/GetUserByEmail","Properties":{"Application":"app"}}
+{"Timestamp":"2019-04-26T14:00:51.2093325+03:00","Level":"Error","MessageTemplate":"Object reference not set to an instance of an object.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-02T11:54:56.4369314+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-06T16:17:48.1879040+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-06T16:20:06.8230548+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-06T16:24:30.9737877+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-06T16:41:42.0516779+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-06T16:41:43.4727810+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-06T16:41:47.7351649+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-06T16:41:48.8699899+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-07T09:28:36.3861507+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-07T09:28:38.7108712+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-07T09:28:44.0811429+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-07T09:28:44.8607229+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-07T09:28:51.7006328+03:00","Level":"Information","MessageTemplate":"Service path is:/api/Account/Login","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-07T09:28:52.7428403+03:00","Level":"Error","MessageTemplate":"INVALID_LOGIN_ATTEMPT","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T10:43:14.3724705+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T10:54:05.1408500+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T10:55:30.0923373+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T10:55:31.4731824+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T10:56:07.5174885+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:36:19.2657901+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:37:28.8874203+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:02.1136512+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:03.3181049+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:08.6132547+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:08.7169080+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-bundle.js","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:08.7169137+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui.css","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:08.7190349+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-standalone-preset.js","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:13.3372616+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:13.3471563+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/favicon-32x32.png","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:40.3781247+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:38:40.4724432+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.RefTypeValue.IRefTypeService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:39:06.0236297+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:39:09.8600563+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:39:09.8600936+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:39:10.1958408+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:39:20.6401496+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:39:20.7947191+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.RefTypeValue.IRefTypeService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:39:59.4281934+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:39:59.4537439+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.RefTypeValue.IRefTypeService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:40:40.9324577+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
+{"Timestamp":"2019-05-09T11:40:40.9870845+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.RefTypeValue.IRefTypeService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}

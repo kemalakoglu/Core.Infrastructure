@@ -21,11 +21,11 @@ Redis
 
 ## Object Validation
 FluentValidation
-Elasticsearch
-Kibana
 
 ## Log
 Serilog support
+Elasticsearch
+Kibana
 
 ## Documentation
 Swagger

@@ -2,6 +2,7 @@
 using Core.Infrastructure.Application.Service;
 using Core.Infrastructure.Application.UnitOfWork;
 using Core.Infrastructure.Core.Contract;
+using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
 using Core.Infrastructure.Domain.Aggregate.User;
 using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Domain.Contract.Service;
@@ -17,7 +18,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
         {
             var connectionString = config["mysqlconnection:connectionString"];
-            services.AddDbContext<Context>(o => o.UseSqlServer(connectionString));
+            services.AddDbContext<CoreContext>(o => o.UseSqlServer(connectionString));
 
             //services.AddDefaultIdentity<IdentityUser>()
             //    .AddEntityFrameworkStores<Context>()
@@ -31,8 +32,9 @@ namespace Core.Infrastructure.Presentation.API.Extensions
 
         public static void ConfigureDomainService(this IServiceCollection services)
         {
-            
+
             services.AddScoped<IUserStoreService, UserStoreService>();
+            services.AddScoped<IRefTypeService, RefTypeService>();
         }
 
         public static void ConfigureApplicationService(this IServiceCollection services)

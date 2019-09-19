@@ -15,7 +15,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         public static void ConfigureAuthentication(this IServiceCollection services, IConfiguration config)
         {
             services.AddDefaultIdentity<IdentityUser>()
-                .AddEntityFrameworkStores<Context>();
+                .AddEntityFrameworkStores<CoreContext>();
 
             services.Configure<IdentityOptions>(options =>
             {

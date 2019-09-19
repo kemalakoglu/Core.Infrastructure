@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using AutoMapper;
 using Core.Infrastructure.Application.Contract.DTO;
@@ -11,32 +12,64 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
     public class RefTypeService: IRefTypeService
     {
-        private readonly IUnitOfWork unitOfWork;
         private readonly IMapper mapper;
+        private readonly IUnitOfWork unitOfWork;
+
         public RefTypeService(IUnitOfWork unitOfWork)
         {
             this.unitOfWork = unitOfWork;
         }
-        public ResponseDTO GetByKey(string key)
+
+        public ResponseDTO<RefTypeDTO> GetByKey(long key)
         {
             throw new NotImplementedException();
         }
 
-        public ResponseDTO Create(RefTypeDTO DTO)
-        {
-            RefType entity = this.mapper.Map<RefType>(DTO);
-            this.unitOfWork.Repository<RefType>().Create(entity);
-            return CreateResponse<RefTypeDTO>.Return(DTO, "Create");
-        }
-
-        public ResponseDTO Update(RefTypeDTO DTO)
+        public ResponseDTO<RefTypeDTO> Create(RefTypeDTO DTO)
         {
             throw new NotImplementedException();
         }
 
-        public ResponseDTO Delete(RefTypeDTO DTO)
+        public ResponseDTO<AddRefTypeResponseDTO> Create(AddRefTypeRequestDTO DTO)
         {
-            throw new NotImplementedException();
+            var entity = new RefType(DTO.Status, DTO.InsertDate, DTO.Name, DTO.IsActive);
+            if (DTO.Parent.Id > 0)
+                entity.SetParent(this.unitOfWork.Repository<RefType>().GetByKey(DTO.Parent.Id));
+
+            unitOfWork.Repository<RefType>().Create(entity);
+            unitOfWork.EndTransaction();
+            return CreateResponse<AddRefTypeResponseDTO>.Return(Mapper.Map(DTO, new AddRefTypeResponseDTO()), "Create");
+        }
+
+        public ResponseDTO<RefTypeDTO> Update(RefTypeDTO DTO)
+        {
+            var entity = unitOfWork.Repository<RefType>().GetByKey(DTO.Id);
+            entity.Update(DTO.Status, DTO.Name, DTO.IsActive, DTO.UpdateDate);
+            unitOfWork.Repository<RefType>().Update(entity);
+            unitOfWork.EndTransaction();
+            return CreateResponse<RefTypeDTO>.Return(DTO, "Update");
+        }
+
+        public ResponseDTO<RefTypeDTO> Delete(RefTypeDTO DTO)
+        {
+            var entity = unitOfWork.Repository<RefType>().GetByKey(DTO.Id);
+            unitOfWork.Repository<RefType>().Delete(entity);
+            unitOfWork.EndTransaction();
+            return CreateResponse<RefTypeDTO>.Return(DTO, "Delete");
+        }
+
+        public ResponseListDTO<RefTypeDTO> GetByParent(long parentId)
+        {
+            IEnumerable<RefType> entity;
+            if (parentId > 0)
+                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == parentId).Get();
+            else
+                entity = unitOfWork.Repository<RefType>().Query().Filter(x => x.Parent.Id == null).Get();
+
+            unitOfWork.EndTransaction();
+
+            //List<RefTypeDTO> response = new List<RefTypeDTO>();
+            return CreateResponse<RefTypeDTO>.Return(Mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()), "GetByParent");
         }
     }
 }

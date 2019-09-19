@@ -4,9 +4,9 @@ namespace Core.Infrastructure.Domain.Aggregate.Base
 {
     public interface IBaseService<T> where T : class
     {
-        ResponseDTO GetByKey(string key);
-        ResponseDTO Create(T DTO);
-        ResponseDTO Update(T DTO);
-        ResponseDTO Delete(T DTO);
+        ResponseDTO<T> GetByKey(long key);
+        ResponseDTO<T> Create(T DTO);
+        ResponseDTO<T> Update(T DTO);
+        ResponseDTO<T> Delete(T DTO);
     }
 }

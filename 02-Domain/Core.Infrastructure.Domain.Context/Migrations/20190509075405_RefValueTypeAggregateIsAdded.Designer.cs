@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Core.Infrastructure.Domain.Context.Migrations
 {
-    [DbContext(typeof(Context.Context))]
+    [DbContext(typeof(Context.CoreContext))]
     [Migration("20190509075405_RefValueTypeAggregateIsAdded")]
     partial class RefValueTypeAggregateIsAdded
     {

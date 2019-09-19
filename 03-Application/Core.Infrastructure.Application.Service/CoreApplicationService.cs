@@ -24,11 +24,30 @@ namespace Core.Infrastructure.Application.Service
             return this.userStoreService.GetUserByEmail(request.Email);
         }
 
-#region RefTypeValue Aggregate
-        public ResponseDTO AddRefType(RefTypeDTO request)
+        #region RefTypeValue Aggregate
+        public ResponseDTO<AddRefTypeResponseDTO> AddRefType(AddRefTypeRequestDTO request)
         {
             return this.refTypeService.Create(request);
         }
-#endregion
+
+        public ResponseDTO<RefTypeDTO> DeleteRefType(long id)
+        {
+            return this.refTypeService.Delete(new RefTypeDTO { Id = id });
+        }
+
+        public ResponseDTO<RefTypeDTO> UpdateRefType(RefTypeDTO request)
+        {
+            return this.refTypeService.Update(request);
+        }
+
+        public ResponseDTO<RefTypeDTO> DeleteRefType(RefTypeDTO request)
+        {
+            return this.refTypeService.Delete(request);
+        }
+        public ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long parentId)
+        {
+            return this.refTypeService.GetByParent(parentId);
+        }
+        #endregion
     }
 }

@@ -7,6 +7,7 @@ using Core.Infrastructure.Domain.Aggregate.User;
 using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Domain.Contract.Service;
 using Core.Infrastructure.Domain.Repository;
+using Core.Infrastructure.Presentation.GraphQL.Schemas;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,7 +16,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
 {
     public static class DependencyInjection
     {
-        public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
+        public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration config)
         {
             var connectionString = config["mysqlconnection:connectionString"];
             services.AddDbContext<CoreContext>(o => o.UseSqlServer(connectionString));
@@ -39,7 +40,6 @@ namespace Core.Infrastructure.Presentation.API.Extensions
 
         public static void ConfigureApplicationService(this IServiceCollection services)
         {
-
             services.AddScoped<ICoreApplicationService, CoreApplicationService>();
         }
 

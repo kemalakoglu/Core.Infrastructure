@@ -951,3 +951,13 @@
 {"Timestamp":"2019-05-09T11:39:59.4537439+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.RefTypeValue.IRefTypeService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
 {"Timestamp":"2019-05-09T11:40:40.9324577+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/AddRefType","Properties":{"Application":"app"}}
 {"Timestamp":"2019-05-09T11:40:40.9870845+03:00","Level":"Error","MessageTemplate":"Unable to resolve service for type 'Core.Infrastructure.Domain.Aggregate.RefTypeValue.IRefTypeService' while attempting to activate 'Core.Infrastructure.Application.Service.CoreApplicationService'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:22:57.0180544+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:22:59.2071777+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:22:59.2071776+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:22:59.2415253+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:22:59.4895873+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui.css","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:22:59.4939135+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-bundle.js","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:22:59.4939764+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-standalone-preset.js","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:22:59.9067476+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:23:06.6180788+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-23T16:23:31.3938084+03:00","Level":"Error","MessageTemplate":"Invalid column name 'ParentId'.\r\nInvalid column name 'ParentId'.","Properties":{"Application":"app"}}

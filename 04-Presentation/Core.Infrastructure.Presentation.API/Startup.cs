@@ -25,7 +25,7 @@ namespace Core.Infrastructure.Presentation.API
             services.AddMvc().AddFluentValidation();
             services.ConfigureLogger(Configuration);
             services.ConfigureCors();
-            services.ConfigureMySqlContext(Configuration);
+            services.ConfigureSqlContext(Configuration);
             services.ConfigureUnitOfWork();
             services.ConfigureSwagger();
             services.AddAutoMapper();

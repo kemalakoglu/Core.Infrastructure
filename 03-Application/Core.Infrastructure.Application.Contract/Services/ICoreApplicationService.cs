@@ -15,5 +15,6 @@ namespace Core.Infrastructure.Application.Contract.Services
         ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long parentId);
         ResponseDTO<AddRefTypeResponseDTO> AddRefType(AddRefTypeRequestDTO request);
         ResponseDTO<RefTypeDTO> DeleteRefType(long parentId);
+        Task<IEnumerable<RefTypeDTO>> GetRefTypes();
     }
 }

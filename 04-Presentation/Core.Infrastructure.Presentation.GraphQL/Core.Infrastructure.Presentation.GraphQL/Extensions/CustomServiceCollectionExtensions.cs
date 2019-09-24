@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
+using Core.Infrastructure.Domain.Aggregate.User;
+using Core.Infrastructure.Domain.Contract.Service;
 using Core.Infrastructure.Presentation.GraphQL.Constants;
 using Core.Infrastructure.Presentation.GraphQL.Executer;
 using Core.Infrastructure.Presentation.GraphQL.Options;
@@ -170,6 +172,19 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
                 .Services
                 .AddTransient(typeof(IGraphQLExecuter<>), typeof(InstrumentingGraphQLExecutor<>));
 
+        public static IServiceCollection AddCustomGraphQLAuthorization(this IServiceCollection services) =>
+            services
+                .AddSingleton<IUserStoreService, UserStoreService>()
+                .AddTransient<IValidationRule, AuthorizationValidationRule>()
+                .AddSingleton(
+                    x =>
+                    {
+                        var authorizationSettings = new AuthorizationSettings();
+                        authorizationSettings.AddPolicy(
+                            AuthorizationPolicyName.Admin,
+                            y => y.RequireClaim("role", "admin"));
+                        return authorizationSettings;
+                    });
 
         /// <summary>
         /// Add GraphQL authorization (See https://github.com/graphql-dotnet/authorization).

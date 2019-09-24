@@ -14,6 +14,6 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
         /// </summary>
         public static IServiceCollection ConfigureProjectSchemas(this IServiceCollection services) =>
             services
-                .AddSingleton<RefTypeSchema>();
+                .AddSingleton<MainSchema>();
     }
 }

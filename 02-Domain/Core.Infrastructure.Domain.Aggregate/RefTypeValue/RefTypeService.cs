@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using AutoMapper;
 using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
@@ -39,6 +40,12 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             unitOfWork.Repository<RefType>().Create(entity);
             unitOfWork.EndTransaction();
             return CreateResponse<AddRefTypeResponseDTO>.Return(Mapper.Map(DTO, new AddRefTypeResponseDTO()), "Create");
+        }
+
+        public async Task<IEnumerable<RefTypeDTO>> GetRefTypes()
+        {
+            var entity = this.unitOfWork.Repository<RefType>().Get();
+            return Mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()).ToList();
         }
 
         public ResponseDTO<RefTypeDTO> Update(RefTypeDTO DTO)

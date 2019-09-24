@@ -1,15 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
+
+using Core.Infrastructure.Presentation.GraphQL.Extensions;
+using Core.Infrastructure.Presentation.GraphQL.Options;
 using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
 
 namespace Core.Infrastructure.Presentation.GraphQL
 {
+    using System;
+    using System.IO;
+    using System.Reflection;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Server.Kestrel.Core;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Serilog;
+    using Serilog.Core;
+
+
     public class Program
     {
         public static void Main(string[] args)

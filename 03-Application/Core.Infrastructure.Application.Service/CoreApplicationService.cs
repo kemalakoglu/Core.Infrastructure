@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
@@ -34,6 +35,9 @@ namespace Core.Infrastructure.Application.Service
         {
             return this.refTypeService.Delete(new RefTypeDTO { Id = id });
         }
+
+        public Task<IEnumerable<RefTypeDTO>> GetRefTypes() =>
+            this.refTypeService.GetRefTypes();
 
         public ResponseDTO<RefTypeDTO> UpdateRefType(RefTypeDTO request)
         {

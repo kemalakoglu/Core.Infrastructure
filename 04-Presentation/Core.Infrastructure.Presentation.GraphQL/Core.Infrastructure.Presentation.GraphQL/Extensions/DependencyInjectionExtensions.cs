@@ -12,6 +12,8 @@ using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Domain.Contract.Service;
 using Core.Infrastructure.Domain.Repository;
 using Core.Infrastructure.Presentation.GraphQL.Schemas;
+using Microsoft.AspNetCore.Hosting.Internal;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -26,7 +28,7 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
             return services.AddDbContext<CoreContext>(o => o.UseSqlServer(connectionString));
 
             //services.AddDefaultIdentity<IdentityUser>()
-            //    .AddEntityFrameworkStores<Context>()
+            //    .AddEntityFrameworkStores<HostingApplication.Context>()
             //    .AddDefaultTokenProviders();
         }
 
@@ -35,8 +37,8 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
 
 
         public static IServiceCollection ConfigureDomainService(this IServiceCollection services) =>
-            services.AddSingleton<IUserStoreService, UserStoreService>()
-                    .AddSingleton<IRefTypeService, RefTypeService>();
+            services.AddSingleton<IRefTypeService, RefTypeService>()
+                .AddSingleton<IUserStoreService, UserStoreService>();
 
         public static IServiceCollection ConfigureApplicationService(this IServiceCollection services) =>
             services.AddSingleton<ICoreApplicationService, CoreApplicationService>();

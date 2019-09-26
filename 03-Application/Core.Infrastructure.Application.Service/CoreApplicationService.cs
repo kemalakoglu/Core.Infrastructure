@@ -39,6 +39,9 @@ namespace Core.Infrastructure.Application.Service
         public Task<IEnumerable<RefTypeDTO>> GetRefTypes() =>
             this.refTypeService.GetRefTypes();
 
+        public Task<RefTypeDTO> GetRefTypeById(RefTypeDTO contextSource) =>
+            this.refTypeService.GetById(contextSource.Id);
+
         public ResponseDTO<RefTypeDTO> UpdateRefType(RefTypeDTO request)
         {
             return this.refTypeService.Update(request);

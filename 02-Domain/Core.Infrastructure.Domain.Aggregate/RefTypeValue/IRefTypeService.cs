@@ -13,5 +13,6 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         ResponseListDTO<RefTypeDTO> GetByParent(long parentId);
         ResponseDTO<AddRefTypeResponseDTO> Create(AddRefTypeRequestDTO DTO);
         Task<IEnumerable<RefTypeDTO>> GetRefTypes();
+        Task<RefTypeDTO> GetById(long contextSourceId);
     }
 }

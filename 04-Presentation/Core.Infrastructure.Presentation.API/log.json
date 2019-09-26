@@ -961,3 +961,5 @@
 {"Timestamp":"2019-09-23T16:22:59.9067476+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
 {"Timestamp":"2019-09-23T16:23:06.6180788+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
 {"Timestamp":"2019-09-23T16:23:31.3938084+03:00","Level":"Error","MessageTemplate":"Invalid column name 'ParentId'.\r\nInvalid column name 'ParentId'.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-25T08:57:41.9672613+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-09-25T08:57:43.4409147+03:00","Level":"Information","MessageTemplate":"Service path is:/ui/playground","Properties":{"Application":"app"}}

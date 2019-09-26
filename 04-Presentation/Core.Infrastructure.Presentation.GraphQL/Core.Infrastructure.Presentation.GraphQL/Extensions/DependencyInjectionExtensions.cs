@@ -22,30 +22,39 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
 {
     public static class DependencyInjectionExtensions
     {
-        public static IServiceCollection ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
+        public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration config)
         {
             var connectionString = config["mysqlconnection:connectionString"];
-            return services.AddDbContext<CoreContext>(o => o.UseSqlServer(connectionString));
+            services.AddDbContext<CoreContext>(o => o.UseSqlServer(connectionString));
 
             //services.AddDefaultIdentity<IdentityUser>()
             //    .AddEntityFrameworkStores<HostingApplication.Context>()
             //    .AddDefaultTokenProviders();
         }
 
-        public static IServiceCollection ConfigureUnitOfWork(this IServiceCollection services) =>
-             services.AddSingleton<IUnitOfWork, UnitOfWork>();
+        public static void ConfigureUnitOfWork(this IServiceCollection services)
+        {
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+        }
 
 
-        public static IServiceCollection ConfigureDomainService(this IServiceCollection services) =>
-            services.AddSingleton<IRefTypeService, RefTypeService>()
+        public static void ConfigureDomainService(this IServiceCollection services)
+        {
+            services.AddScoped<IRefTypeService, RefTypeService>()
                 .AddSingleton<IUserStoreService, UserStoreService>();
+        }
 
-        public static IServiceCollection ConfigureApplicationService(this IServiceCollection services) =>
-            services.AddSingleton<ICoreApplicationService, CoreApplicationService>();
+        public static void ConfigureApplicationService(this IServiceCollection services)
+        {
+            services.AddScoped<ICoreApplicationService, CoreApplicationService>();
+        }
 
 
-        public static IServiceCollection ConfigureRepositoryWrapper(this IServiceCollection services) =>
-            services.AddSingleton<IRepositoryWrapper, RepositoryWrapper>();
+        public static void ConfigureRepositoryWrapper(this IServiceCollection services)
+        {
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+        }
+
 
     }
 }

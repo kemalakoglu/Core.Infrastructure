@@ -8,6 +8,7 @@ using Core.Infrastructure.Presentation.GraphQL.Middleware;
 using Core.Infrastructure.Presentation.GraphQL.Options;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Core.Infrastructure.Presentation.GraphQL.Extensions
@@ -272,6 +273,37 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
                     }
                 };
             });
+        }
+
+        /// <summary>
+        /// Executes the specified action if the specified <paramref name="condition"/> is <c>true</c> which can be
+        /// used to conditionally add to the configuration pipeline.
+        /// </summary>
+        /// <param name="configurationBuilder">The configuration builder.</param>
+        /// <param name="condition">If set to <c>true</c> the action is executed.</param>
+        /// <param name="action">The action used to add to the request execution pipeline.</param>
+        /// <returns>The same configuration builder.</returns>
+        public static IConfigurationBuilder AddIf(
+            this IConfigurationBuilder configurationBuilder,
+            bool condition,
+            Func<IConfigurationBuilder, IConfigurationBuilder> action)
+        {
+            if (configurationBuilder == null)
+            {
+                throw new ArgumentNullException(nameof(configurationBuilder));
+            }
+
+            if (action == null)
+            {
+                throw new ArgumentNullException(nameof(action));
+            }
+
+            if (condition)
+            {
+                configurationBuilder = action(configurationBuilder);
+            }
+
+            return configurationBuilder;
         }
 
         /// <summary>

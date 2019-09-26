@@ -3,48 +3,31 @@ using System.Collections.Generic;
 using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
-using Core.Infrastructure.Domain.Aggregate.User;
-using Core.Infrastructure.Domain.Contract.Service;
+using Core.Infrastructure.Application.Contract.Services;
+using Core.Infrastructure.Application.Service;
 using Core.Infrastructure.Presentation.GraphQL.Constants;
-using Core.Infrastructure.Presentation.GraphQL.Executer;
 using Core.Infrastructure.Presentation.GraphQL.Options;
 using CorrelationId;
-using GraphQL;
-using GraphQL.Authorization;
 using GraphQL.Server;
-using GraphQL.Server.Internal;
-using GraphQL.Validation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.ResponseCompression;
-using Microsoft.Extensions.Caching.Distributed;
-using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
-using IAuthorizationEvaluator = Microsoft.AspNetCore.Authorization.IAuthorizationEvaluator;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace Core.Infrastructure.Presentation.GraphQL.Extensions
 {
-    /// <summary>
-    /// <see cref="IServiceCollection"/> extension methods which extend ASP.NET Core services.
-    /// </summary>
-    public static class CustomServiceCollectionExtensions
+    public static class CustomExtensions
     {
-        public static IServiceCollection AddCorrelationIdFluent(this IServiceCollection services)
+        public static void AddCorrelationIdFluent(this IServiceCollection services)
         {
             services.AddCorrelationId();
-            return services;
         }
 
-        /// <summary>
-        /// Configures caching for the application. Registers the <see cref="IDistributedCache"/> and
-        /// <see cref="IMemoryCache"/> types with the services collection or IoC container. The
-        /// <see cref="IDistributedCache"/> is intended to be used in cloud hosted scenarios where there is a shared
-        /// cache, which is shared between multiple instances of the application. Use the <see cref="IMemoryCache"/>
-        /// otherwise.
-        /// </summary>
-        public static IServiceCollection AddCustomCaching(this IServiceCollection services) =>
+        public static void AddCustomCaching(this IServiceCollection services) =>
             services
                 // Adds IMemoryCache which is a simple in-memory cache.
                 .AddMemoryCache()
@@ -70,7 +53,7 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
         /// Configures the settings by binding the contents of the appsettings.json file to the specified Plain Old CLR
         /// Objects (POCO) and adding <see cref="IOptions{TOptions}"/> objects to the services collection.
         /// </summary>
-        public static IServiceCollection AddCustomOptions(
+        public static void AddCustomOptions(
             this IServiceCollection services,
             IConfiguration configuration) =>
             services
@@ -82,10 +65,21 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
                 .ConfigureAndValidateSingleton<GraphQLOptions>(configuration.GetSection(nameof(ApplicationOptions.GraphQL)));
 
         /// <summary>
+        /// Add custom routing settings which determines how URL's are generated.
+        /// </summary>
+        public static void AddCustomRouting(this IServiceCollection services) =>
+            services.AddRouting(
+                options =>
+                {
+                    // All generated URL's should be lower-case.
+                    options.LowercaseUrls = true;
+                });
+
+        /// <summary>
         /// Adds dynamic response compression to enable GZIP compression of responses. This is turned off for HTTPS
         /// requests by default to avoid the BREACH security vulnerability.
         /// </summary>
-        public static IServiceCollection AddCustomResponseCompression(this IServiceCollection services) =>
+        public static void AddCustomResponseCompression(this IServiceCollection services) =>
             services
                 .Configure<BrotliCompressionProviderOptions>(options => options.Level = CompressionLevel.Optimal)
                 .Configure<GzipCompressionProviderOptions>(options => options.Level = CompressionLevel.Optimal)
@@ -94,25 +88,14 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
                     {
                         // Add additional MIME types (other than the built in defaults) to enable GZIP compression for.
                         var customMimeTypes = services
-                            .BuildServiceProvider()
-                            .GetRequiredService<CompressionOptions>()
-                            .MimeTypes ?? Enumerable.Empty<string>();
+                                                  .BuildServiceProvider()
+                                                  .GetRequiredService<CompressionOptions>()
+                                                  .MimeTypes ?? Enumerable.Empty<string>();
                         options.MimeTypes = customMimeTypes.Concat(ResponseCompressionDefaults.MimeTypes);
 
                         options.Providers.Add<BrotliCompressionProvider>();
                         options.Providers.Add<GzipCompressionProvider>();
                     });
-
-        /// <summary>
-        /// Add custom routing settings which determines how URL's are generated.
-        /// </summary>
-        public static IServiceCollection AddCustomRouting(this IServiceCollection services) =>
-            services.AddRouting(
-                options =>
-                {
-                    // All generated URL's should be lower-case.
-                    options.LowercaseUrls = true;
-                });
 
         /// <summary>
         /// Adds the Strict-Transport-Security HTTP header to responses. This HTTP header is only relevant if you are
@@ -124,7 +107,7 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
         /// Note: You can refer to the following article to clear the HSTS cache in your browser:
         /// http://classically.me/blogs/how-clear-hsts-settings-major-browsers
         /// </summary>
-        public static IServiceCollection AddCustomStrictTransportSecurity(this IServiceCollection services) =>
+        public static void AddCustomStrictTransportSecurity(this IServiceCollection services) =>
             services
                 .AddHsts(
                     options =>
@@ -141,66 +124,62 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
                 // Add health checks for external dependencies here. See https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks
                 .Services;
 
-        public static IServiceCollection AddCustomGraphQL(this IServiceCollection services, IHostingEnvironment hostingEnvironment) =>
-            services
-                // Add a way for GraphQL.NET to resolve types.
-                .AddSingleton<IDependencyResolver, GraphQLDependencyResolver>()
-                .AddGraphQL(
-                    options =>
+        /// <summary>
+        /// Adds customized JSON serializer settings.
+        /// </summary>
+        public static IMvcCoreBuilder AddCustomJsonOptions(
+            this IMvcCoreBuilder builder,
+            IHostingEnvironment hostingEnvironment) =>
+            builder.AddJsonOptions(
+                options =>
+                {
+                    if (hostingEnvironment.IsDevelopment())
                     {
-                        var configuration = services
-                            .BuildServiceProvider()
-                            .GetRequiredService<IOptions<GraphQLOptions>>()
-                            .Value;
-                        // Set some limits for security, read from configuration.
-                        options.ComplexityConfiguration = configuration.ComplexityConfiguration;
-                        // Enable GraphQL metrics to be output in the response, read from configuration.
-                        options.EnableMetrics = configuration.EnableMetrics;
-                        // Show stack traces in exceptions. Don't turn this on in production.
-                        options.ExposeExceptions = hostingEnvironment.IsDevelopment();
-                    })
-                // Adds all graph types in the current assembly with a singleton lifetime.
-                .AddGraphTypes()
-                // Adds ConnectionType<T>, EdgeType<T> and PageInfoType.
-                .AddRelayGraphTypes()
-                // Add a user context from the HttpContext and make it available in field resolvers.
-                //.AddUserContextBuilder<GraphQLUserContextBuilder>()
-                // Add GraphQL data loader to reduce the number of calls to our repository.
-                .AddDataLoader()
-                // Add WebSockets support for subscriptions.
-                .AddWebSockets()
-                .Services
-                .AddTransient(typeof(IGraphQLExecuter<>), typeof(InstrumentingGraphQLExecutor<>));
+                        // Pretty print the JSON in development for easier debugging.
+                        options.SerializerSettings.Formatting = Formatting.Indented;
+                    }
 
-        public static IServiceCollection AddCustomGraphQLAuthorization(this IServiceCollection services) =>
-            services
-                .AddSingleton<IUserStoreService, UserStoreService>()
-                .AddTransient<IValidationRule, AuthorizationValidationRule>()
-                .AddSingleton(
-                    x =>
-                    {
-                        var authorizationSettings = new AuthorizationSettings();
-                        authorizationSettings.AddPolicy(
-                            AuthorizationPolicyName.Admin,
-                            y => y.RequireClaim("role", "admin"));
-                        return authorizationSettings;
-                    });
+                    // Parse dates as DateTimeOffset values by default. You should prefer using DateTimeOffset over
+                    // DateTime everywhere. Not doing so can cause problems with time-zones.
+                    options.SerializerSettings.DateParseHandling = DateParseHandling.DateTimeOffset;
+
+                    // Output enumeration values as strings in JSON.
+                    options.SerializerSettings.Converters.Add(new StringEnumConverter());
+                });
 
         /// <summary>
-        /// Add GraphQL authorization (See https://github.com/graphql-dotnet/authorization).
+        /// Add cross-origin resource sharing (CORS) services and configures named CORS policies. See
+        /// https://docs.asp.net/en/latest/security/cors.html
         /// </summary>
-        //public static IServiceCollection AddCustomGraphQLAuthorization(this IServiceCollection services) =>
-        //    services
-        //        .AddSingleton<IAuthorizationEvaluator, AuthorizationEvaluator>()
-        //        .AddTransient<IValidationRule, AuthorizationValidationRule>()
-        //        .AddSingleton(
-        //            x =>
-        //            {
-        //                var authorizationSettings = new AuthorizationSettings();
-        //                authorizationSettings.AddPolicy(
-        //                    AuthorizationPolicyName.Admin,
-        //                    y => y.RequireClaim("role", "admin"));
-        //                return authorizationSettings;
-        //            });
+        public static IMvcCoreBuilder AddCustomCors(this IMvcCoreBuilder builder) =>
+            builder.AddCors(
+                options =>
+                {
+                    // Create named CORS policies here which you can consume using application.UseCors("PolicyName")
+                    // or a [EnableCors("PolicyName")] attribute on your controller or action.
+                    options.AddPolicy(
+                        CorsPolicyName.AllowAny,
+                        x => x
+                            .AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader());
+                });
+
+        public static IMvcCoreBuilder AddCustomMvcOptions(
+            this IMvcCoreBuilder builder,
+            IHostingEnvironment hostingEnvironment) =>
+            builder.AddMvcOptions(
+                options =>
+                {
+                    // Controls how controller actions cache content from the appsettings.json file.
+                    var cacheProfileOptions = builder.Services.BuildServiceProvider().GetRequiredService<CacheProfileOptions>();
+                    foreach (var keyValuePair in cacheProfileOptions)
+                    {
+                        options.CacheProfiles.Add(keyValuePair);
+                    }
+
+                    // Returns a 406 Not Acceptable if the MIME type in the Accept HTTP header is not valid.
+                    options.ReturnHttpNotAcceptable = true;
+                });
     }
 }

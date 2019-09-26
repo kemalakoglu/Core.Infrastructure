@@ -48,6 +48,14 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             return Mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()).ToList();
         }
 
+        public async Task<RefTypeDTO> GetById(long contextSourceId)
+        {
+            var entity = Mapper.Map(this.unitOfWork.Repository<RefType>().Query()
+                .Filter(x => x.Id == contextSourceId).Get().FirstOrDefault(), new RefTypeDTO());
+            return Mapper.Map(entity, new RefTypeDTO());
+        }
+        
+
         public ResponseDTO<RefTypeDTO> Update(RefTypeDTO DTO)
         {
             var entity = unitOfWork.Repository<RefType>().GetByKey(DTO.Id);

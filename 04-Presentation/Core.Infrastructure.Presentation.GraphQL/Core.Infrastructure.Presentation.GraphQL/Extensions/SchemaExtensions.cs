@@ -7,13 +7,12 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Core.Infrastructure.Presentation.GraphQL.Extensions
 {
-    public static  class SchemaExtensions
+    public static class SchemaExtensions
     {
         /// <summary>
         /// Add project GraphQL schema and web socket types.
         /// </summary>
-        public static IServiceCollection ConfigureProjectSchemas(this IServiceCollection services) =>
-            services
-                .AddSingleton<MainSchema>();
+        public static void ConfigureProjectSchemas(this IServiceCollection services)=>
+            services.AddScoped<MainSchema>();
     }
 }

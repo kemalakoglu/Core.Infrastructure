@@ -15,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Core.Infrastructure.Presentation.GraphQL
 {
-    public class Startup : IStartup
+    public class Startup
     {
         private readonly IConfiguration configuration;
         private readonly IHostingEnvironment hostingEnvironment;
@@ -42,41 +42,45 @@ namespace Core.Infrastructure.Presentation.GraphQL
         ///     called by the ASP.NET runtime. See
         ///     http://blogs.msdn.com/b/webdev/archive/2014/06/17/dependency-injection-in-asp-net-vnext.aspx
         /// </summary>
-        public IServiceProvider ConfigureServices(IServiceCollection services)=>
-            services
-                //.AddCorrelationIdFluent()
-                //.AddCustomCaching()
-                //.AddCustomOptions(configuration)
-                //.AddCustomRouting()
-                //.AddCustomResponseCompression()
-                //.AddCustomStrictTransportSecurity()
-                //.AddCustomHealthChecks()
-                .AddHttpContextAccessor()
-                .AddMvcCore()
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddCorrelationIdFluent();
+            services.AddCustomCaching();
+            services.AddCustomOptions(configuration);
+            services.AddCustomRouting();
+            services.AddCustomResponseCompression();
+            services.AddCustomStrictTransportSecurity();
+            services.AddCustomHealthChecks();
+            services.AddHttpContextAccessor();
+            services.AddMvcCore()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
-                //.AddAuthorization()
-                //.AddJsonFormatters()
-                //.AddCustomJsonOptions(hostingEnvironment)
+                .AddAuthorization()
+                .AddJsonFormatters()
+                .AddCustomJsonOptions(this.hostingEnvironment)
                 .AddCustomCors()
-                //.AddCustomMvcOptions(hostingEnvironment)
-                .Services
-                .AddCustomGraphQL(hostingEnvironment)
-                //.AddCustomGraphQLAuthorization()
-                .ConfigureMySqlContext(configuration)
-                .ConfigureUnitOfWork()
-                .ConfigureDomainService()
-                .ConfigureApplicationService()
-                .ConfigureProjectSchemas()
-                .BuildServiceProvider();
+                .AddCustomMvcOptions(this.hostingEnvironment);
+
+            //services.ConfigureCors();
+            services.AddCustomGraphQL(hostingEnvironment);
+            services.ConfigureMySqlContext(configuration);
+            services.ConfigureUnitOfWork();
+            services.ConfigureDomainService();
+            services.ConfigureApplicationService();
+            services.ConfigureProjectSchemas();
+            services.BuildServiceProvider();
+            services.ConfigureAuthentication(configuration);
+            MappingExtensions.ConfigureMapping();
+        }
 
         public void Configure(IApplicationBuilder application)
         {
             application
-                // Pass a GUID in a X-Correlation-ID HTTP header to set the HttpContext.TraceIdentifier.
-                // UpdateTraceIdentifier must be false due to a bug. See https://github.com/aspnet/AspNetCore/issues/5144
-                //.UseCorrelationId(new CorrelationIdOptions {UpdateTraceIdentifier = false})
-                .UseForwardedHeaders()
-                //.UseResponseCompression()
+                                // Pass a GUID in a X-Correlation-ID HTTP header to set the HttpContext.TraceIdentifier.
+                                // UpdateTraceIdentifier must be false due to a bug. See https://github.com/aspnet/AspNetCore/issues/5144
+                                //.UseCorrelationId(new CorrelationIdOptions {UpdateTraceIdentifier = false})
+                                .UseCorrelationId(new CorrelationIdOptions() { UpdateTraceIdentifier = false })
+                                .UseForwardedHeaders()
+                                .UseResponseCompression()
                 .UseCors(CorsPolicyName.AllowAny)
                 .UseIf(
                     !hostingEnvironment.IsDevelopment(),
@@ -84,8 +88,8 @@ namespace Core.Infrastructure.Presentation.GraphQL
                 .UseIf(
                     hostingEnvironment.IsDevelopment(),
                     x => x.UseDeveloperErrorPages())
-                //.UseHealthChecks("/status")
-                //.UseHealthChecks("/status/self", new HealthCheckOptions {Predicate = _ => false})
+                .UseHealthChecks("/status")
+                .UseHealthChecks("/status/self", new HealthCheckOptions() { Predicate = _ => false })
                 //.UseStaticFilesWithCacheControl()
                 .UseWebSockets()
                 // Use the GraphQL subscriptions in the specified schema and make them available at /graphql.
@@ -96,9 +100,9 @@ namespace Core.Infrastructure.Presentation.GraphQL
                     hostingEnvironment.IsDevelopment(),
                     x => x
                         // Add the GraphQL Playground UI to try out the GraphQL API at /.
-                        .UseGraphQLPlayground(new GraphQLPlaygroundOptions {Path = "/"})
+                        .UseGraphQLPlayground(new GraphQLPlaygroundOptions { Path = "/" })
                         // Add the GraphQL Voyager UI to let you navigate your GraphQL API as a spider graph at /voyager.
-                        .UseGraphQLVoyager(new GraphQLVoyagerOptions {Path = "/voyager"}));
+                        .UseGraphQLVoyager(new GraphQLVoyagerOptions { Path = "/voyager" }));
         }
     }
 }

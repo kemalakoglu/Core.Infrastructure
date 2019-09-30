@@ -41,7 +41,7 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
         public static void ConfigureDomainService(this IServiceCollection services)
         {
             services.AddScoped<IRefTypeService, RefTypeService>()
-                .AddSingleton<IUserStoreService, UserStoreService>();
+                .AddScoped<IUserStoreService, UserStoreService>();
         }
 
         public static void ConfigureApplicationService(this IServiceCollection services)

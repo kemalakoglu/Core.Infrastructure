@@ -51,6 +51,7 @@ namespace Core.Infrastructure.Application.Service
         {
             return this.refTypeService.Delete(request);
         }
+
         public ResponseListDTO<RefTypeDTO> GetRefTypesByParent(long parentId)
         {
             return this.refTypeService.GetByParent(parentId);

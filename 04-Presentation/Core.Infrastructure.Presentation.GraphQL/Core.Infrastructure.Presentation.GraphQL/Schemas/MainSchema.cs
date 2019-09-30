@@ -15,10 +15,15 @@ namespace Core.Infrastructure.Presentation.GraphQL.Schemas
 {
     public class MainSchema : Schema
     {
+        private ICoreApplicationService applicationService;
+        private IUnitOfWork uow;
         public MainSchema(
-            IDependencyResolver resolver, RefTypeSchema refTypeSchema)
+            IDependencyResolver resolver, RefTypeSchema refTypeSchema, ICoreApplicationService applicationService, IUnitOfWork uow)
             : base(resolver)
         {
+            this.applicationService = applicationService;
+            this.uow = uow;
+            resolver.Resolve<CoreApplicationService>();
             this.Query = resolver.Resolve<RefTypeSchema>();
 
         }

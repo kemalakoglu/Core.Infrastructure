@@ -14,8 +14,10 @@ namespace Core.Infrastructure.Presentation.GraphQL.Schemas
 {
     public class RefTypeSchema : ObjectGraphType<object>
     {
-        public RefTypeSchema()
+        private ICoreApplicationService applicationService;
+        public RefTypeSchema(ICoreApplicationService applicationService)
         {
+            this.applicationService = applicationService;
             this.Name = "RefType";
             this.Description = "The query type, represents all of the entry points into our object graph.";
 
@@ -28,7 +30,7 @@ namespace Core.Infrastructure.Presentation.GraphQL.Schemas
                         Name = "id",
                         Description = "The unique identifier of the RefType.",
                     }),
-                resolve: context => null);
+                resolve: context => this.applicationService.GetRefTypes());
         }
     }
 }

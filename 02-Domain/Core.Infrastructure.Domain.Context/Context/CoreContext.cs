@@ -1,4 +1,5 @@
-﻿using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
+﻿using System;
+using Core.Infrastructure.Domain.Aggregate.RefTypeValue;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;

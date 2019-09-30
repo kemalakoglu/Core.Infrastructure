@@ -12,19 +12,20 @@ namespace Core.Infrastructure.Presentation.GraphQL.Graphs
 {
     public class RefTypeGraph : ObjectGraphType<RefTypeDTO>
     {
-        public RefTypeGraph()
+        private ICoreApplicationService appService;
+        public RefTypeGraph(ICoreApplicationService appService)
         {
-            //this.appService = appService;
+            this.appService = appService;
             this.Name = "RefType";
             this.Description = "RefType List";
 
             this.Field(x => x.Id, type: typeof(NonNullGraphType<IdGraphType>)).Description("The unique identifier of the RefType."); ;
-            this.Field(x => x.Name);
-            this.Field(x => x.Parent, type: typeof(ObjectGraphType<RefTypeGraph>));
-            this.Field(x => x.InsertDate);
-            this.Field(x => x.UpdateDate);
-            this.Field(x => x.IsActive);
-            this.Field(x => x.Status);
+            this.Field(x => x.Name, true);
+            this.Field(name: "Parent", type: typeof(RefTypeGraph), resolve: context => this.appService.GetRefTypeById(context.Source));
+            this.Field(x => x.InsertDate, true);
+            this.Field(x => x.UpdateDate, true);
+            this.Field(x => x.IsActive, true);
+            this.Field(x => x.Status, true);
 
             //this.FieldAsync<RefTypeGraph, RefTypeDTO>(
             //    nameof(RefTypeDTO.Parent),

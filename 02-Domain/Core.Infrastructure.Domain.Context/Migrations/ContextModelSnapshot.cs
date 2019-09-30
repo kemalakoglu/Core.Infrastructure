@@ -8,14 +8,14 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Core.Infrastructure.Domain.Context.Migrations
 {
-    [DbContext(typeof(Context.Context))]
+    [DbContext(typeof(CoreContext))]
     partial class ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.8-servicing-32085")
+                .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -31,11 +31,15 @@ namespace Core.Infrastructure.Domain.Context.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<long?>("ParentId");
+
                     b.Property<bool>("Status");
 
                     b.Property<DateTime?>("UpdateDate");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
 
                     b.ToTable("RefType");
                 });
@@ -57,6 +61,9 @@ namespace Core.Infrastructure.Domain.Context.Migrations
                     b.Property<bool>("Status");
 
                     b.Property<DateTime?>("UpdateDate");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(MAX)");
 
                     b.HasKey("Id");
 
@@ -228,6 +235,13 @@ namespace Core.Infrastructure.Domain.Context.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
+                });
+
+            modelBuilder.Entity("Core.Infrastructure.Domain.Aggregate.RefTypeValue.RefType", b =>
+                {
+                    b.HasOne("Core.Infrastructure.Domain.Aggregate.RefTypeValue.RefType", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId");
                 });
 
             modelBuilder.Entity("Core.Infrastructure.Domain.Aggregate.RefTypeValue.RefValue", b =>

@@ -10,7 +10,9 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         {
             Mapper.Initialize(cfg =>
             {
-                cfg.CreateMap<RefTypeDTO, RefType>();
+                cfg.AllowNullCollections = true;
+                cfg.CreateMap<RefType, RefTypeDTO>();
+                cfg.CreateMap<AddRefTypeResponseDTO, AddRefTypeRequestDTO>();
             });
         }
     }

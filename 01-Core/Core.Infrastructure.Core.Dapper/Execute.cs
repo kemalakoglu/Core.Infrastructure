@@ -9,11 +9,11 @@ using Dapper;
 
 namespace Core.Infrastructure.Core.Dapper
 {
-    public static class Execute
+    public static class Execute<T> where T : class
     {
-        public static ResponseDTO ExecuteCommand(string query, IDictionary<string, string> parameters, string cnString, string trackId)
+        public static IEnumerable<T> ExecuteCommand(string query, IDictionary<string, string> parameters, string cnString, string trackId)
         {
-            object response;
+            List<T> response;
             using (IDbConnection con = new SqlConnection(cnString))
             {
                 if (con.State == ConnectionState.Closed)
@@ -25,70 +25,43 @@ namespace Core.Infrastructure.Core.Dapper
                     parameterList.Add(entry.Key, entry.Value);
                 }
 
-                response = con.Query<object>(query, parameterList).ToList();
+                response = con.Query<T>(query, parameterList).ToList();
             }
 
-            return new ResponseDTO
-            {
-                Data = response,
-                Information = new Information
-                {
-                    TrackId = trackId
-                },
-                Message = ResponseMessage.GetDescription(ResponseMessage.Success, "Sql Command is succeeded."),
-                RC = ResponseMessage.Success
-            };
+            return response;
         }
 
-        public static ResponseDTO ExecuteCommand(string query, string cnString, string trackId)
+        public static IEnumerable<T> ExecuteCommand(string query, string cnString, string trackId)
         {
-            object response;
+            List<T> response;
             using (IDbConnection con = new SqlConnection(cnString))
             {
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                response = con.Query<object>(query).ToList();
+                response = con.Query<T>(query).ToList();
             }
 
-            return new ResponseDTO
-            {
-                Data = response,
-                Information = new Information
-                {
-                    TrackId = trackId
-                },
-                Message = ResponseMessage.GetDescription(ResponseMessage.Success, "Sql Command is succeeded."),
-                RC = ResponseMessage.Success
-            };
+            return response;
         }
 
-        public static ResponseDTO ExecuteStoredProcedure(string storedProcedure, string cnString, string trackId)
+        public static IEnumerable<T> ExecuteStoredProcedure(string storedProcedure, string cnString, string trackId)
         {
-            object response;
+            List<T> response;
             using (IDbConnection con = new SqlConnection(cnString))
             {
                 if (con.State == ConnectionState.Closed)
                     con.Open();
 
-                response = con.Query<object>(storedProcedure, commandType: CommandType.StoredProcedure).ToList();
+                response = con.Query<T>(storedProcedure, commandType: CommandType.StoredProcedure).ToList();
             }
 
-            return new ResponseDTO
-            {
-                Data = response,
-                Information = new Information
-                {
-                    TrackId = trackId
-                },
-                Message = ResponseMessage.GetDescription(ResponseMessage.Success, "Sql Command is succeeded."),
-                RC = ResponseMessage.Success
-            };
+            return response;
         }
 
-        public static ResponseDTO ExecuteStoredProcedure(string storedProcedure, IDictionary<string, string> parameters, string cnString, string trackId)
+        public static IEnumerable<T> ExecuteStoredProcedure(string storedProcedure, IDictionary<string, string> parameters, string cnString, string trackId)
         {
-            object response;
+            List<T> response;
             using (IDbConnection con = new SqlConnection(cnString))
             {
                 if (con.State == ConnectionState.Closed)
@@ -100,19 +73,10 @@ namespace Core.Infrastructure.Core.Dapper
                     parameterList.Add(entry.Key, entry.Value);
                 }
 
-                response = con.Query<object>(storedProcedure, parameterList, commandType: CommandType.StoredProcedure).ToList();
+                response = con.Query<T>(storedProcedure, parameterList, commandType: CommandType.StoredProcedure).ToList();
             }
 
-            return new ResponseDTO
-            {
-                Data = response,
-                Information = new Information
-                {
-                    TrackId = trackId
-                },
-                Message = ResponseMessage.GetDescription(ResponseMessage.Success, "Sql Command is succeeded."),
-                RC = ResponseMessage.Success
-            };
+            return response;
         }
     }
 }

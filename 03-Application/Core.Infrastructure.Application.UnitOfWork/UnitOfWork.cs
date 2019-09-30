@@ -11,11 +11,11 @@ namespace Core.Infrastructure.Application.UnitOfWork
     {
         #region Implementation of IUnitOfWork
 
-        public Context context { get; }
+        public CoreContext context { get; }
         private Hashtable repositories;
         private bool disposed;
 
-        public UnitOfWork(Context context)
+        public UnitOfWork(CoreContext context)
         {
             this.context = context;
         }

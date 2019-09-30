@@ -6,10 +6,10 @@ using System.Text;
 namespace Core.Infrastructure.Application.Contract.DTO
 {
     [DataContract]
-    public class ResponseDTO
+    public class ResponseDTO<T> where T : class
     {
         [DataMember]
-        public object Data { get; set; }
+        public T Data { get; set; }
         [DataMember]
         public string Message { get; set; }
         [DataMember]

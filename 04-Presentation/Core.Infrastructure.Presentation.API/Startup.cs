@@ -25,7 +25,7 @@ namespace Core.Infrastructure.Presentation.API
             services.AddMvc().AddFluentValidation();
             services.ConfigureLogger(Configuration);
             services.ConfigureCors();
-            services.ConfigureMySqlContext(Configuration);
+            services.ConfigureSqlContext(Configuration);
             services.ConfigureUnitOfWork();
             services.ConfigureSwagger();
             services.AddAutoMapper();
@@ -37,7 +37,7 @@ namespace Core.Infrastructure.Presentation.API
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, Context context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, CoreContext context)
         {
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();

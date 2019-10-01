@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using Core.Infrastructure.Presentation.GraphQL.Constants;
 using Core.Infrastructure.Presentation.GraphQL.Extensions;
 using Core.Infrastructure.Presentation.GraphQL.Schemas;
@@ -6,6 +7,7 @@ using CorrelationId;
 using GraphQL.Server;
 using GraphQL.Server.Ui.Playground;
 using GraphQL.Server.Ui.Voyager;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -52,6 +54,7 @@ namespace Core.Infrastructure.Presentation.GraphQL
             services.AddCustomStrictTransportSecurity();
             services.AddCustomHealthChecks();
             services.AddHttpContextAccessor();
+            services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddMvcCore()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddAuthorization()
@@ -67,6 +70,7 @@ namespace Core.Infrastructure.Presentation.GraphQL
             services.ConfigureDomainService();
             services.ConfigureApplicationService();
             services.ConfigureProjectSchemas();
+            services.ConfigureMediatr();
             services.BuildServiceProvider();
             services.ConfigureAuthentication(configuration);
             MappingExtensions.ConfigureMapping();

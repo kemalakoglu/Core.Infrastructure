@@ -4,6 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
+using MediatR;
 using Microsoft.AspNetCore.Identity;
 
 namespace Core.Infrastructure.Application.Contract.Services

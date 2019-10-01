@@ -15,6 +15,8 @@
     <PackageReference Include="GraphQL.Server.Transports.WebSockets" Version="3.4.0" />
     <PackageReference Include="GraphQL.Server.Ui.Playground" Version="3.4.0" />
     <PackageReference Include="GraphQL.Server.Ui.Voyager" Version="3.4.0" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.Net.Http.Headers" Version="2.2.0" />
@@ -41,6 +43,7 @@
     <ProjectReference Include="..\..\..\02-Domain\Core.Infrastructure.Domain.Context\Core.Infrastructure.Domain.Context.csproj" />
     <ProjectReference Include="..\..\..\02-Domain\Core.Infrastructure.Domain.Repository\Core.Infrastructure.Domain.Repository.csproj" />
     <ProjectReference Include="..\..\..\03-Application\Core.Infrastructure.Application.Contract\Core.Infrastructure.Application.Contract.csproj" />
+    <ProjectReference Include="..\..\..\03-Application\Core.Infrastructure.Application.CQRS\Core.Infrastructure.Application.EventHandlers\Core.Infrastructure.Application.EventHandlers.csproj" />
     <ProjectReference Include="..\..\..\03-Application\Core.Infrastructure.Application.Service\Core.Infrastructure.Application.Service.csproj" />
     <ProjectReference Include="..\..\..\03-Application\Core.Infrastructure.Application.UnitOfWork\Core.Infrastructure.Application.UnitOfWork.csproj" />
     <ProjectReference Include="..\..\..\05-Test\Core.Infrastructure.Test.CoreTest\Core.Infrastructure.Test.CoreTest.csproj" />

@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
+using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Application.Contract.Services;
+using Core.Infrastructure.Application.EventHandlers.RefType;
 using Core.Infrastructure.Application.Service;
 using Core.Infrastructure.Application.UnitOfWork;
 using Core.Infrastructure.Core.Contract;
@@ -12,6 +16,7 @@ using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Domain.Contract.Service;
 using Core.Infrastructure.Domain.Repository;
 using Core.Infrastructure.Presentation.GraphQL.Schemas;
+using MediatR;
 using Microsoft.AspNetCore.Hosting.Internal;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -55,6 +60,15 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
         }
 
+        public static void ConfigureMediatr(this IServiceCollection services)
+        {
+            services.AddScoped<IRefTypeEventHandler, RefTypeEventHandler>();
+            //services.AddScoped<RefTypeServiceHandler>();
+            //services.AddMediatR(typeof(GetRefTypesResponseDTO).GetTypeInfo().Assembly);
+            //services.AddMediatR(typeof(IRequestHandler<>).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(RefTypeServiceHandler).GetTypeInfo().Assembly);
+            services.AddMediatR(Assembly.GetExecutingAssembly());
+        }
 
     }
 }

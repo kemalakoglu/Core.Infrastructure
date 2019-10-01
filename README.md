@@ -30,6 +30,11 @@ Kibana
 ## Documentation
 Swagger
 
+## CQRS
+Mediatr
+
+## Query Language
+GraphQL
 
 ## Benefits
  - Conventional Dependency Registering

@@ -25,12 +25,7 @@ namespace Core.Infrastructure.Presentation.GraphQL.Schemas
             this.FieldAsync<GetRefTypesResponseGraph, GetRefTypesResponseDTO>(
                 "GetRefTypes",
                 "Get all refTypes",
-                arguments: new QueryArguments(
-                    new QueryArgument<NonNullGraphType<IdGraphType>>()
-                    {
-                        Name = "id",
-                        Description = "The unique identifier of the RefType.",
-                    }),
+                arguments: new QueryArguments(),
                 resolve: async context => this.handler.GetRefTypes().Result);
 
             this.FieldAsync<RefTypeGraph, RefTypeDTO>(

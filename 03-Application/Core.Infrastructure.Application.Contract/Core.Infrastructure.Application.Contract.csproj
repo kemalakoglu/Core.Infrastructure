@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <Compile Update="DTO\RefType\GetRefTypesResponseDTO.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Compile>
   </ItemGroup>
 

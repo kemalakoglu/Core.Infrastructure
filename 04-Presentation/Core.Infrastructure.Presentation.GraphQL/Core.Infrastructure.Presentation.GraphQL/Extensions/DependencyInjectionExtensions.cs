@@ -63,11 +63,7 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
         public static void ConfigureMediatr(this IServiceCollection services)
         {
             services.AddScoped<IRefTypeEventHandler, RefTypeEventHandler>();
-            //services.AddScoped<RefTypeServiceHandler>();
-            //services.AddMediatR(typeof(GetRefTypesResponseDTO).GetTypeInfo().Assembly);
-            //services.AddMediatR(typeof(IRequestHandler<>).GetTypeInfo().Assembly);
             services.AddMediatR(typeof(RefTypeServiceHandler).GetTypeInfo().Assembly);
-            services.AddMediatR(Assembly.GetExecutingAssembly());
         }
 
     }

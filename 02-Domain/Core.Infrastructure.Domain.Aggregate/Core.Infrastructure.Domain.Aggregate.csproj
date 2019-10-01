@@ -22,7 +22,7 @@
 
   <ItemGroup>
     <Compile Update="RefTypeValue\RefTypeServiceHandler.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Compile>
   </ItemGroup>
 

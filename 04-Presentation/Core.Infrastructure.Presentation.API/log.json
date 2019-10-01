@@ -963,3 +963,16 @@
 {"Timestamp":"2019-09-23T16:23:31.3938084+03:00","Level":"Error","MessageTemplate":"Invalid column name 'ParentId'.\r\nInvalid column name 'ParentId'.","Properties":{"Application":"app"}}
 {"Timestamp":"2019-09-25T08:57:41.9672613+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
 {"Timestamp":"2019-09-25T08:57:43.4409147+03:00","Level":"Information","MessageTemplate":"Service path is:/ui/playground","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:52:38.4609017+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:52:40.3121944+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:52:43.7105578+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:52:43.7261438+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/index.html","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:52:43.9021042+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui.css","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:52:43.9023053+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-standalone-preset.js","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:52:43.9042245+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/swagger-ui-bundle.js","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:52:44.5179386+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/CoreInfrastructure/swagger.json","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:52:44.5437978+03:00","Level":"Information","MessageTemplate":"Service path is:/swagger/favicon-32x32.png","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:53:02.9546501+03:00","Level":"Information","MessageTemplate":"Service path is:/api/RefType/GetRefTypesByParent","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:53:03.7106856+03:00","Level":"Information","MessageTemplate":"GetByParent İşlemi Başarıyla Gerçekleştirildi.","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:54:13.9631982+03:00","Level":"Information","MessageTemplate":"WebApi Starting...","Properties":{"Application":"app"}}
+{"Timestamp":"2019-10-01T15:54:14.8381750+03:00","Level":"Information","MessageTemplate":"Service path is:/api/","Properties":{"Application":"app"}}

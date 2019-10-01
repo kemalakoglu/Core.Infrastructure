@@ -14,4 +14,16 @@
     <ProjectReference Include="..\..\03-Application\Core.Infrastructure.Application.Contract\Core.Infrastructure.Application.Contract.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="MediatR">
+      <HintPath>C:\Users\kemal.akoglu\.nuget\packages\mediatr\7.0.0\lib\netstandard2.0\MediatR.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="RefTypeValue\RefTypeServiceHandler.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
 </Project>

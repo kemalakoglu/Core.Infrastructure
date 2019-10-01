@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Core.Infrastructure.Application.Contract.DTO;
 using Core.Infrastructure.Application.Contract.DTO.RefType;
@@ -36,8 +37,10 @@ namespace Core.Infrastructure.Application.Service
             return this.refTypeService.Delete(new RefTypeDTO { Id = id });
         }
 
-        public Task<IEnumerable<RefTypeDTO>> GetRefTypes() =>
-            this.refTypeService.GetRefTypes();
+        public Task<IEnumerable<RefTypeDTO>> GetRefTypes()
+        {
+            return this.refTypeService.GetRefTypes();
+        }
 
         public Task<RefTypeDTO> GetRefTypeById(RefTypeDTO contextSource) =>
             this.refTypeService.GetById(contextSource.Id);
@@ -56,6 +59,7 @@ namespace Core.Infrastructure.Application.Service
         {
             return this.refTypeService.GetByParent(parentId);
         }
+
         #endregion
     }
 }

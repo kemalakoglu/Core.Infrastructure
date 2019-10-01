@@ -5,9 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="MediatR">
+      <HintPath>C:\Users\kemal.akoglu\.nuget\packages\mediatr\7.0.0\lib\netstandard2.0\MediatR.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Extensions.Identity.Stores">
       <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.identity.stores\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Identity.Stores.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="DTO\RefType\GetRefTypesResponseDTO.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
   </ItemGroup>
 
 </Project>

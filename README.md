@@ -202,7 +202,7 @@ GraphQL
             return context.Response.WriteAsync(JsonConvert.SerializeObject(response));
         }
 
-***AggregateRoot definations***
+***AggregateRoot definitions***
 
    public interface IRepository<T> where T : class
     {
@@ -253,7 +253,7 @@ GraphQL
 	
 	
         
-***Application Service definations***
+***Application Service definitions***
 
     // Query methods all comes from base class. You can override if you want!
      public class RefTypeService : IRefTypeService
@@ -286,7 +286,7 @@ GraphQL
 	}
 	
 	
-***CommandHandlers definations***
+***CommandHandlers definitions***
 
      /// <summary>
         /// To filter Operations
@@ -335,7 +335,7 @@ GraphQL
 		
 		
 
-***Dapper Repository definations***
+***Dapper Repository definitions***
  
 
   public class RefTypeDapperRepository : IDeliveryPlanDetailDapperRepository
@@ -371,7 +371,7 @@ GraphQL
 			}
 
 
-***EntityFrameworkCore definations***
+***EntityFrameworkCore definitions***
    
 
      public class Context : IdentityDbContext<IdentityUser>
@@ -402,7 +402,7 @@ GraphQL
     }
      
 
-***Log Service definations***
+***Log Service definitions***
 
               public static ResponseBaseDTO Make(T entity, string methodName)
         {

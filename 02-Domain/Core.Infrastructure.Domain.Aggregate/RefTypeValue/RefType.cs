@@ -15,7 +15,6 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         {
             this.lazyLoader = lazyLoader;
         }
-
         public RefType(bool status, DateTime? insertDate, string name, bool isActive)
         {
             this.Status = status;
@@ -24,13 +23,14 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             this.IsActive = isActive;
         }
 
-        public RefType(bool status, string name, bool isActive, DateTime? updateDate)
+        public RefType(DateTime? insertDate, string name, bool isActive)
         {
-            this.Status = status;
-            this.InsertDate = updateDate;
+            this.Status = true;
+            this.InsertDate = insertDate;
             this.Name = name;
             this.IsActive = isActive;
         }
+
         public string Name { get; protected set; }
 
         public RefType Parent
@@ -45,10 +45,23 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         {
             this.Parent = parent;
         }
+
+        public void Update(string name, bool isActive, DateTime updateDate)
+        {
+            this.UpdateDate = updateDate;
+            this.Name = name;
+            this.IsActive = isActive;
+        }
+
+        public void SetStatus(bool status)
+        {
+            this.Status = status;
+        }
+
         public void Update(bool status, string name, bool isActive, DateTime? updateDate)
         {
             this.Status = status;
-            this.InsertDate = updateDate;
+            this.UpdateDate = updateDate;
             this.Name = name;
             this.IsActive = isActive;
         }

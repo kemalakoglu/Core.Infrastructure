@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Core.Infrastructure.Application.Contract.DTO;
-using Core.Infrastructure.Application.Contract.DTO.RefType;
+using Core.Infrastructure.Core.Helper;
 using Core.Infrastructure.Domain.Aggregate.Base;
+using Core.Infrastructure.Domain.Contract.DTO.RefType;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
     public interface IRefTypeService: IBaseService<RefTypeDTO>
     {
-        ResponseListDTO<RefTypeDTO> GetByParent(long parentId);
-        ResponseDTO<AddRefTypeResponseDTO> Create(AddRefTypeRequestDTO DTO);
-        Task<IEnumerable<RefTypeDTO>> GetRefTypes();
-        Task<RefTypeDTO> GetById(long contextSourceId);
+        Task<ResponseDTO<AddRefTypeResponseDTO>> CreateAsync(AddRefTypeRequestDTO DTO);
+        Task<ResponseListDTO<RefTypeDTO>> GetRefTypesAsync();
+        Task<ResponseDTO<RefTypeDTO>> GetByIdAsync(long contextSourceId);
+        Task<ResponseListDTO<RefTypeDTO>> GetByParentAsync(long parentId);
     }
 }

@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using MediatR;
 
-namespace Core.Infrastructure.Application.Contract.DTO.RefType
+namespace Core.Infrastructure.Domain.Contract.DTO.RefType
 {
     [DataContract]
     public class GetRefTypesResponseDTO : IRequest<GetRefTypesResponseDTO>

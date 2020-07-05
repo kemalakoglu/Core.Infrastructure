@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Core", "01-Core", "{7C5C0879-F912-429F-95C3-7926B7315000}"
 EndProject
@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Infrastructure.Core.Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Infrastructure.Presentation.GraphQL", "04-Presentation\Core.Infrastructure.Presentation.GraphQL\Core.Infrastructure.Presentation.GraphQL\Core.Infrastructure.Presentation.GraphQL.csproj", "{B98FE15A-7BC4-40AA-851F-BEC8296D4B7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Infrastructure.Application.EventHandlers", "03-Application\Core.Infrastructure.Application.CQRS\Core.Infrastructure.Application.EventHandlers\Core.Infrastructure.Application.EventHandlers.csproj", "{3E66B760-BCB5-456B-A6D2-C8ED8717B58D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Infrastructure.Application.EventHandlers", "03-Application\Core.Infrastructure.Application.CQRS\Core.Infrastructure.Application.EventHandlers\Core.Infrastructure.Application.EventHandlers.csproj", "{3E66B760-BCB5-456B-A6D2-C8ED8717B58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Infrastructure.Domain.Contract", "02-Domain\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract.csproj", "{A046D515-ACDE-434C-BC1D-FEE669C0B8D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +117,10 @@ Global
 		{3E66B760-BCB5-456B-A6D2-C8ED8717B58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E66B760-BCB5-456B-A6D2-C8ED8717B58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E66B760-BCB5-456B-A6D2-C8ED8717B58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A046D515-ACDE-434C-BC1D-FEE669C0B8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A046D515-ACDE-434C-BC1D-FEE669C0B8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A046D515-ACDE-434C-BC1D-FEE669C0B8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A046D515-ACDE-434C-BC1D-FEE669C0B8D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +142,7 @@ Global
 		{167369F5-79E3-4ECF-AB47-17512C60DC2C} = {7C5C0879-F912-429F-95C3-7926B7315000}
 		{B98FE15A-7BC4-40AA-851F-BEC8296D4B7B} = {ACC0486E-F1E0-4983-A0AD-535548A41EBC}
 		{3E66B760-BCB5-456B-A6D2-C8ED8717B58D} = {158D49BE-5571-42A7-8CBC-1F3B01B588EF}
+		{A046D515-ACDE-434C-BC1D-FEE669C0B8D3} = {8ECA74AB-3BBD-420A-AFEE-153280257C8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA2682F7-54ED-458C-BC48-AC361594881B}

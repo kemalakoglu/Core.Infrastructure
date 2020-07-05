@@ -1,17 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="8.1.0" />
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Contract\Core.Infrastructure.Core.Contract.csproj" />
     <ProjectReference Include="..\..\01-Core\Core.Infrastructure.Core.Helper\Core.Infrastructure.Core.Helper.csproj" />
-    <ProjectReference Include="..\..\03-Application\Core.Infrastructure.Application.Contract\Core.Infrastructure.Application.Contract.csproj" />
+    <ProjectReference Include="..\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract.csproj" />
   </ItemGroup>
 
   <ItemGroup>

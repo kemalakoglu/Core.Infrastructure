@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Core.Infrastructure.Application.Contract.DTO.RefType;
+﻿using System.Threading.Tasks;
+using Core.Infrastructure.Domain.Contract.DTO.RefType;
 using MediatR;
 
 namespace Core.Infrastructure.Application.EventHandlers.RefType

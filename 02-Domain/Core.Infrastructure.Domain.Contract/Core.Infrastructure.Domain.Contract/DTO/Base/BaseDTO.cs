@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Text;
 
-namespace Core.Infrastructure.Application.Contract.DTO.Base
+namespace Core.Infrastructure.Domain.Contract.DTO.Base
 {
     [DataContract]
     public class BaseDTO

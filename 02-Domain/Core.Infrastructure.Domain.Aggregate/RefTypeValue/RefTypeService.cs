@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using Core.Infrastructure.Application.Contract.DTO;
-using Core.Infrastructure.Application.Contract.DTO.RefType;
 using Core.Infrastructure.Core.Contract;
 using Core.Infrastructure.Core.Helper;
-using MediatR;
+using Core.Infrastructure.Domain.Aggregate.Base;
+using Core.Infrastructure.Domain.Contract.DTO.RefType;
 
 namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
 {
@@ -18,9 +15,10 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
         private readonly IMapper mapper;
         private readonly IUnitOfWork unitOfWork;
 
-        public RefTypeService(IUnitOfWork unitOfWork)
+        public RefTypeService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             this.unitOfWork = unitOfWork;
+            this.mapper = mapper;
         }
 
         public ResponseDTO<RefTypeDTO> GetByKey(long key)
@@ -33,32 +31,33 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             throw new NotImplementedException();
         }
 
-        public ResponseDTO<AddRefTypeResponseDTO> Create(AddRefTypeRequestDTO DTO)
+        public async Task<ResponseDTO<AddRefTypeResponseDTO>> CreateAsync(AddRefTypeRequestDTO DTO)
         {
-            var entity = new RefType(DTO.Status, DTO.InsertDate, DTO.Name, DTO.IsActive);
+            var entity = new RefType(DateTime.Now, DTO.Name, true);
             if (DTO.Parent.Id > 0)
                 entity.SetParent(this.unitOfWork.Repository<RefType>().GetByKey(DTO.Parent.Id));
 
             unitOfWork.Repository<RefType>().Create(entity);
             unitOfWork.EndTransaction();
-            return CreateResponse<AddRefTypeResponseDTO>.Return(Mapper.Map(DTO, new AddRefTypeResponseDTO()), "Create");
+            DTO.Id = entity.Id;
+            return CreateResponse<AddRefTypeResponseDTO>.Return(mapper.Map(DTO, new AddRefTypeResponseDTO()), "Create");
         }
 
-        public async Task<IEnumerable<RefTypeDTO>> GetRefTypes()
+        public async Task<ResponseListDTO<RefTypeDTO>> GetRefTypesAsync()
         {
             var entity = this.unitOfWork.Repository<RefType>().Get();
-            return Mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()).ToList();
+            return CreateResponse<RefTypeDTO>.Return(mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()), "GetRefTypes");
         }
 
-        public async Task<RefTypeDTO> GetById(long contextSourceId)
+        public async Task<ResponseDTO<RefTypeDTO>> GetByIdAsync(long contextSourceId)
         {
-            var entity = Mapper.Map(this.unitOfWork.Repository<RefType>().Query()
-                .Filter(x => x.Id == contextSourceId).Get().FirstOrDefault(), new RefTypeDTO());
-            return Mapper.Map(entity, new RefTypeDTO());
+            var entity = this.unitOfWork.Repository<RefType>().Query()
+                .Filter(x => x.Id == contextSourceId).Get().FirstOrDefault();
+            return CreateResponse<RefTypeDTO>.Return(mapper.Map(entity, new RefTypeDTO()), "GetById");
         }
         
 
-        public ResponseDTO<RefTypeDTO> Update(RefTypeDTO DTO)
+        public async Task<ResponseDTO<RefTypeDTO>> UpdateAsync(RefTypeDTO DTO)
         {
             var entity = unitOfWork.Repository<RefType>().GetByKey(DTO.Id);
             entity.Update(DTO.Status, DTO.Name, DTO.IsActive, DTO.UpdateDate);
@@ -67,7 +66,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             return CreateResponse<RefTypeDTO>.Return(DTO, "Update");
         }
 
-        public ResponseDTO<RefTypeDTO> Delete(RefTypeDTO DTO)
+        public async Task<ResponseDTO<RefTypeDTO>> DeleteAsync(RefTypeDTO DTO)
         {
             var entity = unitOfWork.Repository<RefType>().GetByKey(DTO.Id);
             unitOfWork.Repository<RefType>().Delete(entity);
@@ -75,7 +74,7 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             return CreateResponse<RefTypeDTO>.Return(DTO, "Delete");
         }
 
-        public ResponseListDTO<RefTypeDTO> GetByParent(long parentId)
+        public async Task<ResponseListDTO<RefTypeDTO>> GetByParentAsync(long parentId)
         {
             IEnumerable<RefType> entity;
             if (parentId > 0)
@@ -86,7 +85,37 @@ namespace Core.Infrastructure.Domain.Aggregate.RefTypeValue
             unitOfWork.EndTransaction();
 
             //List<RefTypeDTO> response = new List<RefTypeDTO>();
-            return CreateResponse<RefTypeDTO>.Return(Mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()), "GetByParent");
+            return CreateResponse<RefTypeDTO>.Return(mapper.Map<RefType[], IEnumerable<RefTypeDTO>>(entity.ToArray()), "GetByParent");
+        }
+
+        ResponseDTO<RefTypeDTO> IBaseService<RefTypeDTO>.Update(RefTypeDTO DTO)
+        {
+            throw new NotImplementedException();
+        }
+
+        ResponseDTO<RefTypeDTO> IBaseService<RefTypeDTO>.Delete(RefTypeDTO DTO)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ResponseDTO<RefTypeDTO> SoftDelete(long Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ResponseDTO<RefTypeDTO>> GetByKeyAsync(long key)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ResponseDTO<RefTypeDTO>> CreateAsync(RefTypeDTO DTO)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ResponseDTO<RefTypeDTO>> SoftDeleteAsync(long Id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

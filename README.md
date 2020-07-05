@@ -1,5 +1,5 @@
 ## Core.Infrastructure
-Core.Infrastructure .Net Core 2.x support !
+Core.Infrastructure .Net Core 3.x support !
 
 ## IoC
 ASP.NET Core Dependency 

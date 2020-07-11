@@ -28,12 +28,13 @@ namespace Core.Infrastructure.Presentation.API
             services.ConfigureSqlContext(Configuration);
             services.ConfigureUnitOfWork();
             services.ConfigureSwagger();
-            services.AddAutoMapper();
+            //services.AddAutoMapper();
+            services.AddAutoMapper(typeof(Startup));
             services.ConfigureApplicationService();
             services.ConfigureDomainService();
             services.ConfigureFluentValidation();
             services.ConfigureRedisCache();
-            Mapping.ConfigureMapping();
+            //Mapping.ConfigureMapping();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

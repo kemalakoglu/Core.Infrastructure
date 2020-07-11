@@ -34,7 +34,7 @@ namespace Core.Infrastructure.Presentation.API.Extensions
         public static void ConfigureDomainService(this IServiceCollection services)
         {
 
-            services.AddScoped<IUserStoreService, UserStoreService>();
+            services.AddScoped<IUserManagerService, UserManagerService>();
             services.AddScoped<IRefTypeService, RefTypeService>();
         }
 

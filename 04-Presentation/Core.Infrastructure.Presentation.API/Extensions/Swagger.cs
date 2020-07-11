@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace Core.Infrastructure.Presentation.API.Extensions
@@ -10,17 +11,17 @@ namespace Core.Infrastructure.Presentation.API.Extensions
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("CoreInfrastructure", new Info
+                c.SwaggerDoc("CoreInfrastructure", new OpenApiInfo
                 {
                     Title = "Core.Infrastructure API",
                     Version = "Core.Infrastructure",
                     Description = "Core.Infrastructure Web API Documentation",
-                    Contact = new Contact
-                    {
-                        Name = "Swagger Implementation of Kemal Akoğlu",
-                        //Url = "http://doco.com.tr",
-                        Email = "kemal.akoglu@doco.com.tr"
-                    }
+                    //Contact = new Contact
+                    //{
+                    //    Name = "Swagger Implementation of Kemal Akoğlu",
+                    //    //Url = "http://doco.com.tr",
+                    //    Email = "kemal.akoglu@doco.com.tr"
+                    //}
                 });
             });
         }

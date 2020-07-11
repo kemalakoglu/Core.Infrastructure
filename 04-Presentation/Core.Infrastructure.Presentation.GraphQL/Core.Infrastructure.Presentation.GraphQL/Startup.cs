@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reflection;
+using AutoMapper;
 using Core.Infrastructure.Presentation.GraphQL.Constants;
 using Core.Infrastructure.Presentation.GraphQL.Extensions;
 using Core.Infrastructure.Presentation.GraphQL.Schemas;
@@ -58,8 +59,8 @@ namespace Core.Infrastructure.Presentation.GraphQL
             services.AddMvcCore()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddAuthorization()
-                .AddJsonFormatters()
-                .AddCustomJsonOptions(this.hostingEnvironment)
+                //.AddJsonFormatters()
+                //.AddCustomJsonOptions(this.hostingEnvironment)
                 .AddCustomCors()
                 .AddCustomMvcOptions(this.hostingEnvironment);
 
@@ -73,7 +74,8 @@ namespace Core.Infrastructure.Presentation.GraphQL
             services.ConfigureMediatr();
             services.BuildServiceProvider();
             services.ConfigureAuthentication(configuration);
-            MappingExtensions.ConfigureMapping();
+            services.AddAutoMapper(typeof(Startup));
+            //MappingExtensions();
         }
 
         public void Configure(IApplicationBuilder application)
@@ -82,7 +84,7 @@ namespace Core.Infrastructure.Presentation.GraphQL
                                 // Pass a GUID in a X-Correlation-ID HTTP header to set the HttpContext.TraceIdentifier.
                                 // UpdateTraceIdentifier must be false due to a bug. See https://github.com/aspnet/AspNetCore/issues/5144
                                 //.UseCorrelationId(new CorrelationIdOptions {UpdateTraceIdentifier = false})
-                                .UseCorrelationId(new CorrelationIdOptions() { UpdateTraceIdentifier = false })
+                                //.UseCorrelationId(new CorrelationIdOptions() { UpdateTraceIdentifier = false })
                                 .UseForwardedHeaders()
                                 .UseResponseCompression()
                 .UseCors(CorsPolicyName.AllowAny)

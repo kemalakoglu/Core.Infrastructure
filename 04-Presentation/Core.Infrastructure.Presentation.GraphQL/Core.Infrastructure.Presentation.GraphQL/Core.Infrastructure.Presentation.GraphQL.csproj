@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="CorrelationId" Version="3.0.0" />
     <PackageReference Include="GraphQL" Version="2.4.0" />
     <PackageReference Include="GraphQL.Authorization" Version="2.1.29" />
@@ -17,7 +18,7 @@
     <PackageReference Include="GraphQL.Server.Ui.Voyager" Version="3.4.0" />
     <PackageReference Include="MediatR" Version="8.0.2" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.Net.Http.Headers" Version="2.2.8" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
@@ -29,6 +30,7 @@
     <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
     <PackageReference Include="Serilog.Sinks.Debug" Version="1.0.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
@@ -41,6 +43,7 @@
     <ProjectReference Include="..\..\..\01-Core\Core.Infrastructure.Core.Resources\Core.Infrastructure.Core.Resources.csproj" />
     <ProjectReference Include="..\..\..\02-Domain\Core.Infrastructure.Domain.Aggregate\Core.Infrastructure.Domain.Aggregate.csproj" />
     <ProjectReference Include="..\..\..\02-Domain\Core.Infrastructure.Domain.Context\Core.Infrastructure.Domain.Context.csproj" />
+    <ProjectReference Include="..\..\..\02-Domain\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract\Core.Infrastructure.Domain.Contract.csproj" />
     <ProjectReference Include="..\..\..\02-Domain\Core.Infrastructure.Domain.Repository\Core.Infrastructure.Domain.Repository.csproj" />
     <ProjectReference Include="..\..\..\03-Application\Core.Infrastructure.Application.Contract\Core.Infrastructure.Application.Contract.csproj" />
     <ProjectReference Include="..\..\..\03-Application\Core.Infrastructure.Application.CQRS\Core.Infrastructure.Application.EventHandlers\Core.Infrastructure.Application.EventHandlers.csproj" />

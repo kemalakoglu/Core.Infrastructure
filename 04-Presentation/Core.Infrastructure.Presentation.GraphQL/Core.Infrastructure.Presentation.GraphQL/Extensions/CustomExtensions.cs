@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO.Compression;
+﻿using System.IO.Compression;
 using System.Linq;
-using System.Threading.Tasks;
-using Core.Infrastructure.Application.Contract.Services;
-using Core.Infrastructure.Application.Service;
 using Core.Infrastructure.Presentation.GraphQL.Constants;
 using Core.Infrastructure.Presentation.GraphQL.Options;
-using CorrelationId;
+using CorrelationId.DependencyInjection;
 using GraphQL.Server;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -124,28 +119,29 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
                 // Add health checks for external dependencies here. See https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks
                 .Services;
 
+        //todo: fixed later
         /// <summary>
         /// Adds customized JSON serializer settings.
         /// </summary>
-        public static IMvcCoreBuilder AddCustomJsonOptions(
-            this IMvcCoreBuilder builder,
-            IHostingEnvironment hostingEnvironment) =>
-            builder.AddJsonOptions(
-                options =>
-                {
-                    if (hostingEnvironment.IsDevelopment())
-                    {
-                        // Pretty print the JSON in development for easier debugging.
-                        options.SerializerSettings.Formatting = Formatting.Indented;
-                    }
+        //public static IMvcCoreBuilder AddCustomJsonOptions(
+        //    this IMvcCoreBuilder builder,
+        //    IHostingEnvironment hostingEnvironment) =>
+        //    builder.AddJsonOptions(
+        //        options =>
+        //        {
+        //            if (hostingEnvironment.IsDevelopment())
+        //            {
+        //                // Pretty print the JSON in development for easier debugging.
+        //                options.JsonSerializerOptions.Formatting = Formatting.Indented;
+        //            }
 
-                    // Parse dates as DateTimeOffset values by default. You should prefer using DateTimeOffset over
-                    // DateTime everywhere. Not doing so can cause problems with time-zones.
-                    options.SerializerSettings.DateParseHandling = DateParseHandling.DateTimeOffset;
+        //            // Parse dates as DateTimeOffset values by default. You should prefer using DateTimeOffset over
+        //            // DateTime everywhere. Not doing so can cause problems with time-zones.
+        //            options.SerializerSettings.DateParseHandling = DateParseHandling.DateTimeOffset;
 
-                    // Output enumeration values as strings in JSON.
-                    options.SerializerSettings.Converters.Add(new StringEnumConverter());
-                });
+        //            // Output enumeration values as strings in JSON.
+        //            options.SerializerSettings.Converters.Add(new StringEnumConverter());
+        //        });
 
         /// <summary>
         /// Add cross-origin resource sharing (CORS) services and configures named CORS policies. See

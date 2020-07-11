@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Core.Infrastructure.Application.Contract.DTO.RefType;
-using Core.Infrastructure.Application.Contract.Services;
-using Core.Infrastructure.Presentation.GraphQL.Graphs.RefType;
+﻿using Core.Infrastructure.Domain.Contract.DTO.RefType;
 using GraphQL.Types;
 
 namespace Core.Infrastructure.Presentation.GraphQL.Graphs.RefType

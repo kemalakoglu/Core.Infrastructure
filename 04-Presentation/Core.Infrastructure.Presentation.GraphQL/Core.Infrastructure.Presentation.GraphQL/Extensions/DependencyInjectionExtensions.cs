@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using Core.Infrastructure.Application.Contract.DTO.RefType;
+﻿using System.Reflection;
 using Core.Infrastructure.Application.Contract.Services;
 using Core.Infrastructure.Application.EventHandlers.RefType;
 using Core.Infrastructure.Application.Service;
@@ -15,10 +9,7 @@ using Core.Infrastructure.Domain.Aggregate.User;
 using Core.Infrastructure.Domain.Context.Context;
 using Core.Infrastructure.Domain.Contract.Service;
 using Core.Infrastructure.Domain.Repository;
-using Core.Infrastructure.Presentation.GraphQL.Schemas;
 using MediatR;
-using Microsoft.AspNetCore.Hosting.Internal;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -46,7 +37,7 @@ namespace Core.Infrastructure.Presentation.GraphQL.Extensions
         public static void ConfigureDomainService(this IServiceCollection services)
         {
             services.AddScoped<IRefTypeService, RefTypeService>()
-                .AddScoped<IUserStoreService, UserStoreService>();
+                    .AddScoped<IUserManagerService, UserManagerService>();
         }
 
         public static void ConfigureApplicationService(this IServiceCollection services)

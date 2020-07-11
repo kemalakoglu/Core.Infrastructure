@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Core.Infrastructure.Domain.Aggregate.User
 {
-    public class UserStoreService : IUserManagerService
+    public class UserManagerService : IUserManagerService
     {
         private readonly IUnitOfWork uow;
         private readonly UserManager<ApplicationUser> userManager;
@@ -19,7 +19,7 @@ namespace Core.Infrastructure.Domain.Aggregate.User
         /// <param name="uow">The uow.</param>
         /// <param name="userManager">The user manager.</param>
         /// <param name="signInManager">The sign in manager.</param>
-        public UserStoreService(IUnitOfWork uow, UserManager<ApplicationUser> userManager)
+        public UserManagerService(IUnitOfWork uow, UserManager<ApplicationUser> userManager)
         {
             this.uow = uow;
             this.userManager = userManager;

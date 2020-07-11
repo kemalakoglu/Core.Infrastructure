@@ -60,11 +60,11 @@ namespace Core.Infrastructure.Presentation.GraphQL
                 .UseIf(
                     args != null,
                     x => x.UseConfiguration(new ConfigurationBuilder().AddCommandLine(args).Build()))
-                .ConfigureAppConfiguration((hostingContext, config) =>
-                    AddConfiguration(config, hostingContext.HostingEnvironment, args))
+                //.ConfigureAppConfiguration((hostingContext, config) =>
+                //    AddConfiguration(config, hostingContext.HostingEnvironment, args))
                 .UseSerilog()
-                .UseDefaultServiceProvider((context, options) =>
-                    options.ValidateScopes = context.HostingEnvironment.IsDevelopment())
+                //.UseDefaultServiceProvider((context, options) =>
+                //    options.ValidateScopes = context.HostingEnvironment.IsDevelopment())
                 .UseKestrel(
                     (builderContext, options) =>
                     {
